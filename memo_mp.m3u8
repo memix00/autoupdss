@@ -1,0 +1,247 @@
+
+#EXTM3U
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+
+#EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/2008842210414915584/zIp_go25_200x200.jpg" group-title="Generalistas" tvg-name="La 1",La 1
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="La2.TV" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqgHWySi5xprs1VFCNCX0IKNT8yXBLZC43JMoB8j0JUto=s200" group-title="Generalistas" tvg-name="La 2",La 2
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
+https://atres-live.atresmedia.com/ddfd47cf314502c76f6ca3d3be3fb27aae20a639_ES_1774368566_1774397306/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
+https://atres-live.atresmedia.com/16b6048d65efbaca02dfff03e25b47454f9c541b_ES_1774368556_1774397296/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
+https://atres-live.atresmedia.com/ddce0557cf09f87b0cfd3a3e57bcf5d96dad5990_ES_1774368575_1774397315/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
+https://atres-live.atresmedia.com/cd44681bff0863d61148db02879980e6dfbda8d2_ES_1774368585_1774397325/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
+https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzQzNjg1MzIsIm5iZiI6MTc3NDM2ODUzMiwiZXhwIjoxNzc0MzY4ODkyLCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDYuMTY0LjEyNyJ9.BMayKp3n8GnQ3xGHG5XYzOo1w01vqfGb4nHFvyZrfMY/live/es/fd3a4a326f7e4499b2f0d9e12e3bbd37/index.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
+https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
+
+#EXTINF:-1 tvg-id="CosmosTV" tvg-name="Cosmos TV" group-title="Generalistas",Cosmos TV
+https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
+
+#EXTINF:-1 tvg-id="24Horas.TV" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Informativos" tvg-name="24h",24h
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="TDP.TV" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="Deportivos" tvg-name="Teledeporte",Teledeporte
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="TV3CAT.es" tvg-name="TV3Cat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/TV3CAT.svg" group-title="España",TV3Cat
+https://directes-tv-int.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Clan_logo.svg/960px-Clan_logo.svg.png" group-title="RTVE",Clan
+https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="beINXtra.es" tvg-name="beIN Sports XTRA" group-title="Deportes",beIN Sports XTRA
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+
+#EXTINF:-1 tvg-id="Euronews.TV" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Informativos" tvg-name="Euronews",Euronews
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+
+#EXTINF:-1 tvg-id="ElConfidencial.TV" tvg-logo="https://graph.facebook.com/elconfidencial/picture?width=200&height=200" group-title="Informativos" tvg-name="El Confidencial",El Confidencial
+https://dgrfwaj8stp69.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hmbd9k13g6zsa/live/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
+
+#EXTINF:-1 tvg-id="E3.TV" tvg-logo="https://graph.facebook.com/Esport3/picture?width=200&height=200" group-title="Deportivos" tvg-name="Esport 3",Esport 3 GEO CAT
+https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/3-24_logo.svg/512px-3-24_logo.svg.png" tvg-id="324.cat" group-title="Informativos",Canal 324
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
+https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
+
+#EXTINF:-1 tvg-id="RTVE_Conciertos_R3.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="Conciertos Radio 3 (RTVE)",Conciertos Radio 3 (RTVE)
+https://ztnr.rtve.es/ztnr/6924117.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVTopMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Top Movies Spain 
+https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8
+
+#EXTINF:-1 tvg-id="RTVE_Cuentame.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="Cuéntame (RTVE)",Cuéntame (RTVE)
+https://ztnr.rtve.es/ztnr/6909843.m3u8
+
+#EXTINF:-1 tvg-id="CineAdrenalina" tvg-name="Cine Adrenalina" group-title="Cine",Cine Adrenalina
+https://jmp2.uk/plu-5d8d164d92e97a5e107638d2.m3u8
+
+#EXTINF:-1 tvg-id="CinePremiere" tvg-name="Cine Premiere" group-title="Cine",Cine Premiere
+https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
+
+#EXTINF:-1 tvg-id="CineComedia" tvg-name="Cine Comedia" group-title="Cine",Cine Comedia
+https://jmp2.uk/plu-5f513564e4622a0007c578c0.m3u8
+
+#EXTINF:-1 tvg-id="CineSony" tvg-name="Cine Sony" group-title="Cine",Cine Sony
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CineTerror" tvg-name="Cine Terror" group-title="Cine",Cine Terror
+https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8
+
+#EXTINF:-1 tvg-id="RTVE_SomosCine.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="Somos Cine (RTVE)",Somos Cine (RTVE)
+https://ztnr.rtve.es/ztnr/6909845.m3u8
+
+#EXTINF:-1 tvg-name="Cine Friki" group-title="Cine",Cine Friki
+https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Action Movies Spain 
+https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Comedy Movies Spain 
+https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Drama Movies Spain 
+https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies",Rakuten TV Family Movies Spain
+https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 1",Rai 1 Italia
+https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 2",Rai 2 Italia
+https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 3",Rai 3 Italia
+https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" group-title="Generalistas",Rai 5
+http://78.130.250.2:8023/play/a04o/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/960px-Rete_4_-_Logo_2018.svg.png" group-title="Int. Europa" tvg-name="Rete 4 Italia",Rete 4 IT
+https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Canale5.png" group-title="Int. Europa" tvg-name="Canale 5 Italia",Canale 5 IT
+https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/960px-Italia_1_logo.svg.png" group-title="Int. Europa" tvg-name="Italia 1 Italia",Italia 1 IT
+https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png" group-title="Int. Europa" tvg-name="La7 Italia",La7 Italia IT
+https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/LA7_Cinema.svg/960px-LA7_Cinema.svg.png" group-title="Int. Europa" tvg-name="LA7 Cinema",La7 Cine IT
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
+
+#EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it" group-title="Italy",Nove
+https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
+
+#EXTINF:-1 tvg-name="DMAX" tvg-logo="https://i.imgur.com/dmEmRX7.png" tvg-id="DMAX.it" tvg-chno="52" group-title="DTV", DMAX
+https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
+
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/5IxIFJ0.png" tvg-id="DiscoveryChannel.it" group-title="Italy",Discovery Channel
+https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+
+#EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/269.m3u8
+
+#EXTINF:-1 tvg-id="Cielo.it" tvg-name="Cielo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cielo_TV_logo_2013.svg" group-title="Italia",Cielo Italia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/281.m3u8
+
+#EXTINF:-1 tvg-name="Cine 34" group-title="Italia",Cine 34
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/92.m3u8
+
+#EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" group-title="Italia",Focus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/89.m3u8
+
+#EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" group-title="Italia",Top Crime
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/86.m3u8
+
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/rainews24/picture?width=200&height=200" group-title="Int. Europa" tvg-name="RaiNews24",RaiNews24 Italia
+https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
+
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/raistoria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Storia",Rai Storia Italia
+https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
+
+#EXTINF:-1 tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Sky_TG24_logo_2020.svg" group-title="Italia",Sky TG24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/293.m3u8
+
+#EXTINF:-1 tvg-id="Canale122.it" tvg-name="Canale 122 HD" group-title="Italia",Canale 122 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/128.m3u8
+
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
+https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Sport Italia",Rai Sport IT
+https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
+
+#EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(llMp_o0NYO-b1iINp-dfG-tmbDSgUrR6PIhUlyzks8CtQgXQSWUVK1zXNvQ9TKw6Ofvwblv8n5zs1ZN0RWJWSjPfsI9REmyav2wfzFQYOspbJttfdHn5tIGP37bRVHiO)/cloud/3/xa0aoxk/d/live-720.m3u8
+
+#EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(TOtSyf1v9u6dU2Q1OthgtCrPa_Nz8ndyWUNWFXPot1-nwbywObWjHKq-RLSGPuY9btQf4X3RUAK5ZlH-XH-S6La-k18Z9ijrpecaA-7jl1ZF72eqBYnTfzWKe94wwgqJ)/cloud/3/x893du6/d/live-720.m3u8
+
+#EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
+https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" group-title="Generalistas",Rai Scuola
+https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
+
+#EXTINF:-1 tvg-name="Mayday: Disastro Aereo" tvg-id="mayday-air-disaster-channel-ita" tvg-chno="387" group-title="RAKUTEN documentari",Mayday: Disastro Aereo
+https://amg01821-amg01821c38-rakuten-it-10669.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaydisastroaereo-rakutenit/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="BBCDramaItaly.it" tvg-name="BBC Drama Italy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/BBC_logo_%282021%29.svg/330px-BBC_logo_%282021%29.svg.png" group-title="FAST Italia",BBC Drama Italy
+https://amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="RakutenTVTopMovies.es@Italy" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Top Movies Italy https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Italy" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Comedy Movies Italy
+https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Rakuten_TV_logo.svg/330px-Rakuten_TV_logo.svg.png",Brividy Cinema 
+https://ixmediasrl-serially-1-it.rakuten.wurl.tv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Rakuten_TV_logo.svg/330px-Rakuten_TV_logo.svg.png",Cine Aliens 
+https://9d597739.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0JpenphcnJvTW92aWVzX0hMUw/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Red_Bull_TV_logo.png/330px-Red_Bull_TV_logo.png",Red Bull TV EN
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/08872b9b-a4a7-4533-a19b-d2c24a7bf2f1/JAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png" tvg-id="6430a9dcfc3be594776d55f4-6448ba1baf92c31f4a190c27" tvg-chno="622" group-title="PLEX TV - True Crime",JAIL
+https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6448ba1baf92c31f4a190c27.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=wh8WCkbVyytfXbPjRUX-
+
+#EXTINF:-1 tvg-name="80 Anni - 2a Guerra Mondiale" tvg-id="80-anni" tvg-chno="388" group-title="RAKUTEN documentari",80 Anni - 2a Guerra Mondiale
+https://12c898047ca54008a2014edf2411f165.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_80Anni2aGuerraMondiale/playlist.m3u8
+
+#EXTINF:-1 tvg-name="SuperTennis" tvg-logo="https://i.imgur.com/GzsPlbX.png" tvg-id="SuperTennis.it" group-title="Italy",SuperTennis
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+
+#EXTINF:-1 tvg-id="CNNInt.TV" tvg-logo="https://graph.facebook.com/cnninternational/picture?width=320&height=320" group-title="Int. Europa" tvg-name="CNN Internacional",CNN Internacional
+https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
+
+#EXTINF:-1 tvg-id="DW.es" tvg-name="DW Español" group-title="Noticias",DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
+
+#EXTINF:-1 tvg-id="NatureTime.es@SD" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Documentary",Nature Time 
+https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="wedo Big Stories" tvg-id="wedo-big-stories-ita" tvg-chno="385" group-title="RAKUTEN documentari",wedo Big Stories
+https://videosolutions-wedobigstories-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-videosolutions-wedobigstories-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-name="CGTN Documentary" tvg-id="cgtn-documentary" tvg-chno="386" group-title="RAKUTEN documentari",CGTN Documentary
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+
+#EXTINF:-1 tvg-name="The Pet Collective" group-title="Animali",The Pet Collective
+https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
