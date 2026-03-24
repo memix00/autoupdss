@@ -1,2 +1,6 @@
 [2026-03-25 00:13:39] === AVVIO SCRIPT ===
 [2026-03-25 00:13:39] Aggiornamento playlist (placeholder)
+[2026-03-25 00:13:41] Push Git completato
+[2026-03-25 00:13:41] === FINE SCRIPT ===
+[2026-03-25 00:21:42] === AVVIO SCRIPT ===
+[2026-03-25 00:21:42] Aggiornamento playlist (placeholder)
