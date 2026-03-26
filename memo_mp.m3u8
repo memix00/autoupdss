@@ -26,7 +26,7 @@ https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
 
-#EXTINF:-1 tvg-id="CosmosTV" tvg-name="Cosmos TV" group-title="Generalistas",Cosmos TV
+#EXTINF:-1 tvg-id="CosmosTV" tvg-name="Cosmos TV" tvg-logo="https://cdn-icons-png.flaticon.com/128/1179/1179069.png" group-title="Generalistas",Cosmos TV
 https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
 
 #EXTINF:-1 tvg-id="24Horas.TV" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Informativos" tvg-name="24h",24h
@@ -41,7 +41,7 @@ https://directes-tv-int.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Clan_logo.svg/960px-Clan_logo.svg.png" group-title="RTVE",Clan
 https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="beINXtra.es" tvg-name="beIN Sports XTRA" group-title="Deportes",beIN Sports XTRA
+#EXTINF:-1 tvg-id="beINXtra.es" tvg-name="beIN Sports XTRA" tvg-logo="https://cdn-icons-png.flaticon.com/128/857/857455.png" group-title="Deportes",beIN Sports XTRA
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 
 #EXTINF:-1 tvg-id="Euronews.TV" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Informativos" tvg-name="Euronews",Euronews
@@ -68,25 +68,25 @@ https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="RTVE_Cuentame.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="Cuéntame (RTVE)",Cuéntame (RTVE)
 https://ztnr.rtve.es/ztnr/6909843.m3u8
 
-#EXTINF:-1 tvg-id="CineAdrenalina" tvg-name="Cine Adrenalina" group-title="Cine",Cine Adrenalina
+#EXTINF:-1 tvg-id="CineAdrenalina" tvg-name="Cine Adrenalina" tvg-logo="https://cdn-icons-png.flaticon.com/128/2503/2503508.png" group-title="Cine",Cine Adrenalina
 https://jmp2.uk/plu-5d8d164d92e97a5e107638d2.m3u8
 
-#EXTINF:-1 tvg-id="CinePremiere" tvg-name="Cine Premiere" group-title="Cine",Cine Premiere
+#EXTINF:-1 tvg-id="CinePremiere" tvg-name="Cine Premiere" tvg-logo="https://cdn-icons-png.flaticon.com/128/2503/2503508.png" group-title="Cine",Cine Premiere
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
-#EXTINF:-1 tvg-id="CineComedia" tvg-name="Cine Comedia" group-title="Cine",Cine Comedia
+#EXTINF:-1 tvg-id="CineComedia" tvg-name="Cine Comedia" tvg-logo="https://cdn-icons-png.flaticon.com/128/2503/2503508.png" group-title="Cine",Cine Comedia
 https://jmp2.uk/plu-5f513564e4622a0007c578c0.m3u8
 
-#EXTINF:-1 tvg-id="CineSony" tvg-name="Cine Sony" group-title="Cine",Cine Sony
+#EXTINF:-1 tvg-id="CineSony" tvg-name="Cine Sony" tvg-logo="https://cdn-icons-png.flaticon.com/128/2503/2503508.png" group-title="Cine",Cine Sony
 https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CineTerror" tvg-name="Cine Terror" group-title="Cine",Cine Terror
+#EXTINF:-1 tvg-id="CineTerror" tvg-name="Cine Terror" tvg-logo="https://cdn-icons-png.flaticon.com/128/2503/2503508.png" group-title="Cine",Cine Terror
 https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8
 
 #EXTINF:-1 tvg-id="RTVE_SomosCine.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="Somos Cine (RTVE)",Somos Cine (RTVE)
 https://ztnr.rtve.es/ztnr/6909845.m3u8
 
-#EXTINF:-1 tvg-name="Cine Friki" group-title="Cine",Cine Friki
+#EXTINF:-1 tvg-name="Cine Friki" tvg-logo="https://cdn-icons-png.flaticon.com/128/2503/2503508.png" group-title="Cine",Cine Friki
 https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8
 
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Action Movies Spain 
@@ -110,7 +110,7 @@ https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 3",Rai 3 Italia
 https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" group-title="Generalistas",Rai 5
+#EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" tvg-logo="https://static.iptv-epg.com/it/Rai5.it.png" group-title="Generalistas",Rai 5
 http://78.130.250.2:8023/play/a04o/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/960px-Rete_4_-_Logo_2018.svg.png" group-title="Int. Europa" tvg-name="Rete 4 Italia",Rete 4 IT
@@ -147,17 +147,17 @@ https://uvotv.zappr.stream/269.m3u8
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/281.m3u8
 
-#EXTINF:-1 tvg-name="Cine 34" group-title="Italia",Cine 34
+#EXTINF:-1 tvg-name="Cine 34" tvg-logo="https://static.iptv-epg.com/it/Cine34.it.png" group-title="Italia",Cine 34
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/92.m3u8
 
-#EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" group-title="Italia",Focus
+#EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" tvg-logo="https://static.iptv-epg.com/it/Focus.it.png" group-title="Italia",Focus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/89.m3u8
 
-#EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" group-title="Italia",Top Crime
+#EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" tvg-logo="https://static.iptv-epg.com/it/TopCrime.it.png" group-title="Italia",Top Crime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/86.m3u8
@@ -173,7 +173,7 @@ https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/293.m3u8
 
-#EXTINF:-1 tvg-id="Canale122.it" tvg-name="Canale 122 HD" group-title="Italia",Canale 122 HD
+#EXTINF:-1 tvg-id="Canale122.it" tvg-name="Canale 122 HD" tvg-logo="https://cdn-icons-png.flaticon.com/128/1179/1179069.png" group-title="Italia",Canale 122 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/128.m3u8
@@ -193,10 +193,10 @@ https://live2.eu-north-1b.cf.dmcdn.net/sec2(d8qylXhHCNIhU3kXQVqPIy2e8OZHYWuT4i8P
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" group-title="Generalistas",Rai Scuola
+#EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" tvg-logo="https://static.iptv-epg.com/it/RaiScuola.it.png" group-title="Generalistas",Rai Scuola
 https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 
-#EXTINF:-1 tvg-name="Mayday: Disastro Aereo" tvg-id="mayday-air-disaster-channel-ita" tvg-chno="387" group-title="RAKUTEN documentari",Mayday: Disastro Aereo
+#EXTINF:-1 tvg-name="Mayday: Disastro Aereo" tvg-id="mayday-air-disaster-channel-ita" tvg-chno="387" tvg-logo="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" group-title="RAKUTEN documentari",Mayday: Disastro Aereo
 https://amg01821-amg01821c38-rakuten-it-10669.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaydisastroaereo-rakutenit/playlist.m3u8
 
 
@@ -222,7 +222,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/08872b9b-a4a7-4533-a19b-d2c24a7bf2f1/JAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png" tvg-id="6430a9dcfc3be594776d55f4-6448ba1baf92c31f4a190c27" tvg-chno="622" group-title="PLEX TV - True Crime",JAIL
 https://epg.provider.plex.tv/library/parts/6430a9dcfc3be594776d55f4-6448ba1baf92c31f4a190c27.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=wh8WCkbVyytfXbPjRUX-
 
-#EXTINF:-1 tvg-name="80 Anni - 2a Guerra Mondiale" tvg-id="80-anni" tvg-chno="388" group-title="RAKUTEN documentari",80 Anni - 2a Guerra Mondiale
+#EXTINF:-1 tvg-name="80 Anni - 2a Guerra Mondiale" tvg-id="80-anni" tvg-chno="388" tvg-logo="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" group-title="RAKUTEN documentari",80 Anni - 2a Guerra Mondiale
 https://12c898047ca54008a2014edf2411f165.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_80Anni2aGuerraMondiale/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SuperTennis" tvg-logo="https://i.imgur.com/GzsPlbX.png" tvg-id="SuperTennis.it" group-title="Italy",SuperTennis
@@ -231,17 +231,17 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 #EXTINF:-1 tvg-id="CNNInt.TV" tvg-logo="https://graph.facebook.com/cnninternational/picture?width=320&height=320" group-title="Int. Europa" tvg-name="CNN Internacional",CNN Internacional
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
 
-#EXTINF:-1 tvg-id="DW.es" tvg-name="DW Español" group-title="Noticias",DW Español
+#EXTINF:-1 tvg-id="DW.es" tvg-name="DW Español" tvg-logo="https://static.iptv-epg.com/de/DWDeutsch.de.png" group-title="Noticias",DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 
 #EXTINF:-1 tvg-id="NatureTime.es@SD" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Documentary",Nature Time 
 https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="wedo Big Stories" tvg-id="wedo-big-stories-ita" tvg-chno="385" group-title="RAKUTEN documentari",wedo Big Stories
+#EXTINF:-1 tvg-name="wedo Big Stories" tvg-id="wedo-big-stories-ita" tvg-chno="385" tvg-logo="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" group-title="RAKUTEN documentari",wedo Big Stories
 https://videosolutions-wedobigstories-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-videosolutions-wedobigstories-rakuten/CDN/master.m3u8
 
-#EXTINF:-1 tvg-name="CGTN Documentary" tvg-id="cgtn-documentary" tvg-chno="386" group-title="RAKUTEN documentari",CGTN Documentary
+#EXTINF:-1 tvg-name="CGTN Documentary" tvg-id="cgtn-documentary" tvg-chno="386" tvg-logo="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" group-title="RAKUTEN documentari",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 
-#EXTINF:-1 tvg-name="The Pet Collective" group-title="Animali",The Pet Collective
+#EXTINF:-1 tvg-name="The Pet Collective" tvg-logo="https://cdn-icons-png.flaticon.com/128/616/616408.png" group-title="Animali",The Pet Collective
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
