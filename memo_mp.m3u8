@@ -256,18 +256,28 @@ https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/269.m3u8
 
 #EXTINF:-1 tvg-id="Cielo.it" tvg-name="Cielo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cielo_TV_logo_2013.svg" group-title="Italia",Cielo Italia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/281.m3u8
 
 #EXTINF:-1 tvg-name="Cine 34" group-title="Italia",Cine 34
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/92.m3u8
 
 #EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" group-title="Italia",Focus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/89.m3u8
 
 #EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" group-title="Italia",Top Crime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/86.m3u8
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rainews24/picture?width=200&height=200" group-title="Int. Europa" tvg-name="RaiNews24",RaiNews24 Italia
 https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
@@ -277,9 +287,13 @@ https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 
 #EXTINF:-1 tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Sky_TG24_logo_2020.svg" group-title="Italia",Sky TG24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/293.m3u8
 
 #EXTINF:-1 tvg-id="Canale122.it" tvg-name="Canale 122 HD" group-title="Italia",Canale 122 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/128.m3u8
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
 https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
@@ -385,9 +399,6 @@ https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Serie Sci-Fi
 https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Snooker 900
-https://jmp2.uk/plu-69148c76e9dec35c9269a16c.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Sport
 https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8
