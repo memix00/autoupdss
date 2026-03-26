@@ -9,19 +9,19 @@ https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live.atresmedia.com/e76602eb85758d7204fdc9805447b4bbc61e89b9_ES_1774535215_1774563955/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/44bece29a00bc9c9908bfbf04df8afe133de9c73_ES_1774535558_1774564298/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live.atresmedia.com/76532f01d3c9e0483bd7e136e8a30472cbbe9962_ES_1774535205_1774563945/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/e40e63cce61f0f1da3a8ab8020712754be66ce6c_ES_1774535549_1774564289/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live.atresmedia.com/333fb54953453da880288037774631310afdf93e_ES_1774535224_1774563964/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/700562cf673fe5151dc9833a0a412a3eaf2eca90_ES_1774535567_1774564307/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live.atresmedia.com/fb40f7e00842c9ca07b2ad198cf24a5af60d7af9_ES_1774535234_1774563974/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/b7f786d4e4ceeec574e59b9b408a336f0c08d0af_ES_1774535577_1774564317/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
-https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzQ1MzUxOTEsIm5iZiI6MTc3NDUzNTE5MSwiZXhwIjoxNzc0NTM1NTUxLCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDYuMTY0LjEyNyJ9.j_o9q5s56AvDEpLydkGtj63bsrYg4VrDdKLL1ZKZkK8/live/es/fd3a4a326f7e4499b2f0d9e12e3bbd37/index.mpd
+https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzQ1MzU1MjYsIm5iZiI6MTc3NDUzNTUyNiwiZXhwIjoxNzc0NTM1ODg2LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDYuMTY0LjEyNyJ9.6DdksvZzELNXg2Xs3nd8fDK5hF40ypDqLq0qoRwQMX0/live/es/fd3a4a326f7e4499b2f0d9e12e3bbd37/index.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
@@ -185,10 +185,10 @@ https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
 https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(fkfyxrkiDIs8_llAt-PzsHuuzdlpzb7rpdtig8Za8Tz9yVCeTpcecHbp8tDOUbVyLVwoUmxbZxFS7-OrpqFuK8St4MAfSLCHhEAtwwo64uKz1LF6j6dBQYT2kiaJVbw0)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(oYvbkyJLsERieqeCG11uwo6Rcvr0AlXTsUCUH7KUYYh_y_q9AvRArBfimTNvsdtgA-EfrWFVNyPXC7dgpc97v4WsygaP3EYsfHLEl9j_ZAGfxqXZMNLcZ5j9GdNCB5GI)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(8pRqNWM-xGC8fWC0noKIFjxtZCIxTdEZHuDOrVLlC8AspmZsRrM1BG-Rb4afns9sxQNLWfGCk3YbN2jqqMxR54b0vC9GGx2EW5u2yfnJ7MhCUsViKQoVLsfVQlRGR2RO)/cloud/3/x893du6/d/live-720.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(M9XdXkIPU523Cie5_nbrIXJc23NG5i0w26KEfkymmT7HX1QSgHis-slXDd-B5PtK0igAgyLSAxlR1XrMAo6v7yrasCViaPh9dRSHEIytaZNlFM7uIkygFRlhAQRvPEPr)/cloud/3/x893du6/d/live-720.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
