@@ -9,19 +9,19 @@ https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live.atresmedia.com/aa6178a262a28f0d503ddbf4ca6a45f6b59f2f6b_ES_1774689639_1774718379/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/d0fae0c53df25107db3fb81d89109463a5237839_ES_1774606854_1774635594/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live.atresmedia.com/f275d0a37e1b611e955e1d01756dadb3bcd2ffdb_ES_1774689630_1774718370/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/6dd31d09a302edee0cd2495d5315edb54ea67d63_ES_1774606844_1774635584/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live.atresmedia.com/7e487bf493cfcd6bd33227dfa35bd17be277fe27_ES_1774689649_1774718389/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/b8b381c70c8a9f77110bb60c2c816781dd1c952d_ES_1774606863_1774635603/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live.atresmedia.com/0143501f51ef36fb6b08dec15f3f5e9460fda6ce_ES_1774689658_1774718398/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/b13caeb7a6148be0c508c2cace7644bd8716e9ed_ES_1774606873_1774635613/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
-https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzQ2ODk2MDksIm5iZiI6MTc3NDY4OTYwOSwiZXhwIjoxNzc0Njg5OTY5LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiNzkuMTU2LjE1My42MCJ9.h18FqcTKwhgTnEMC65vv_0QpPVrVo87BoLDyaK1h-Ec/live/es/fd3a4a326f7e4499b2f0d9e12e3bbd37/index.mpd
+https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzQ2MDY4MzEsIm5iZiI6MTc3NDYwNjgzMSwiZXhwIjoxNzc0NjA3MTkxLCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiNzkuMTU2LjE1My42MCJ9.Vdc01xqUtUd5YedpaBnCDZvOqrqHxvLjsj-uaKczC_g/live/es/fd3a4a326f7e4499b2f0d9e12e3bbd37/index.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
@@ -245,30 +245,12 @@ https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/5IxIFJ0.png" tvg-id="DiscoveryChannel.it" group-title="Italy",Discovery Channel
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
 
-#EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
+#EXTINF:-1,RAI Premium
+https://ilglobotv-live.akamaized.net/channels/RAIPremium/events(1000)/RAIPremium-video=1800000.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-origin=http://www.freeintertv.com
+#EXTVLCOPT:http-referrer=http://www.freeintertv.com/
 #EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/269.m3u8
-
-#EXTINF:-1 tvg-id="Cielo.it" tvg-name="Cielo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cielo_TV_logo_2013.svg" group-title="Italia",Cielo Italia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/281.m3u8
-
-#EXTINF:-1 tvg-name="Cine 34" group-title="Italia",Cine 34
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/92.m3u8
-
-#EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" group-title="Italia",Focus
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/89.m3u8
-
-#EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" group-title="Italia",Top Crime
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/86.m3u8
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rainews24/picture?width=200&height=200" group-title="Int. Europa" tvg-name="RaiNews24",RaiNews24 Italia
 https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
@@ -276,15 +258,13 @@ https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/raistoria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Storia",Rai Storia Italia
 https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 
-#EXTINF:-1 tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Sky_TG24_logo_2020.svg" group-title="Italia",Sky TG24
+#EXTINF:-1,Sky TG24
+https://acdn.ak-stream-videoplatform.sky.it/hls/2022/05/04/678727/HLS/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-origin=https://livetv.work
+#EXTVLCOPT:http-referrer=https://livetv.work/
 #EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/293.m3u8
 
-#EXTINF:-1 tvg-id="Canale122.it" tvg-name="Canale 122 HD" group-title="Italia",Canale 122 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/128.m3u8
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
 https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
@@ -293,10 +273,10 @@ https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
 https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(un67g-iAyEHPoxxuaLiB3ZhExssLzwEJjNbSzV6ubqgMXr0fY3xjM-kqBLJoNIVrRutKLG2CUkRMxFz0qhOWXxQeSw9My9AvtkGnfBC5VvUw-jsfQ0QW72I8fxTpOn8u)/cloud/3/x893du6/d/live-720.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(strpJW6ZqtMBHmVumc9vyL8C2o8uZXRt1nyvWm0uSoDnLpgqzyDiYNTwMc1llTkmkTep6mpJZnzgp0Fexm_iwVBbc2JdmPepIGebT2iYHSc6vEqM0KoW3idMyRDdMb9U)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(un67g-iAyEHPoxxuaLiB3ZhExssLzwEJjNbSzV6ubqgMXr0fY3xjM-kqBLJoNIVrRutKLG2CUkRMxFz0qhOWXxQeSw9My9AvtkGnfBC5VvUw-jsfQ0QW72I8fxTpOn8u)/cloud/3/x893du6/d/live-720.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(IjDtOCrNUPYHApRcorKo78YzUuo_ruLCaCIKXWAX9Vihx7XhclHbEuomS2rg2Yb4xTGSyb_ctP1GBWk-62UjiH-7XBnXkqUpReCk32332SxWdnZ3clJtoNDHC0yTZ0DO)/cloud/3/x893du6/d/live-720.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8

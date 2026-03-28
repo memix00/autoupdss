@@ -1,12 +1,8 @@
 @echo off
-cd /d C:\Users\Domotix\Documents\IPTV\autoupdss
+cd /d C:\Users\memixtv\Documents\IPTV_auto\autoupdss
 
-echo ==============================
-echo AGGIORNAMENTO PLAYLIST MEMO MP
-echo ==============================
+taskkill /IM brave.exe /F >nul 2>&1
 
 python aggiorna_memo_github_mp.py
 
-echo.
-echo Operazione completata.
 pause
