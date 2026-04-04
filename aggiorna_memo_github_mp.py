@@ -581,95 +581,116 @@ def extract_dmax_stream(page) -> str:
 
 
 def extract_sardegna1_stream(page) -> str:
-    found_urls = []
+    def run_attempt(page):
+        found_urls = []
 
-    def add_url(url: str):
-        if url and url not in found_urls:
-            found_urls.append(url)
+        def add_url(url: str):
+            if url and url not in found_urls:
+                found_urls.append(url)
 
-    def is_sardegna_candidate(url: str) -> bool:
-        u = url.lower()
-        return ".m3u8" in u and "dmcdn.net" in u
+        def is_sardegna_candidate(url: str) -> bool:
+            u = url.lower()
+            return ".m3u8" in u and "dmcdn.net" in u
 
-    def on_request(request):
-        if is_sardegna_candidate(request.url):
-            add_url(request.url)
+        def on_request(request):
+            if is_sardegna_candidate(request.url):
+                add_url(request.url)
 
-    def on_response(response):
-        if is_sardegna_candidate(response.url):
-            add_url(response.url)
+        def on_response(response):
+            if is_sardegna_candidate(response.url):
+                add_url(response.url)
 
-    page.on("request", on_request)
-    page.on("response", on_response)
+        page.on("request", on_request)
+        page.on("response", on_response)
 
-    try:
-        prepare_page(page)
-        print("\nApro pagina: Sardegna 1", flush=True)
-        page.goto("https://www.sardegna1.it/live/diretta-live/", wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(4000)
+        try:
+            prepare_page(page)
+            print("\nApro pagina: Sardegna 1", flush=True)
+            page.goto("https://www.sardegna1.it/live/diretta-live/", wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(4000)
 
-        accept_popups(page)
-        hard_mute_page(page)
-
-        autoplay_ok = try_autoplay(page)
-        if autoplay_ok:
-            print("Autoplay tentato su Sardegna 1", flush=True)
-        else:
-            print(">>> AUTOPLAY NON TROVATO: CLICCA TU SUL PLAYER (Sardegna 1) <<<", flush=True)
-
-        autoplay_frames(page)
-        hard_mute_page(page)
-
-        for _ in range(24):
-            preferred = [
-                u for u in found_urls
-                if "dmcdn.net" in u.lower()
-                and ".m3u8" in u.lower()
-                and "live-" in u.lower()
-            ]
-            if preferred:
-                for u in preferred:
-                    if "live-720.m3u8" in u.lower() and validate_stream_url(u):
-                        return u
-                for u in preferred:
-                    if validate_stream_url(u):
-                        return u
-                return preferred[0]
-
-            page.wait_for_timeout(500)
+            accept_popups(page)
             hard_mute_page(page)
 
-    finally:
-        try:
-            page.remove_listener("request", on_request)
-        except Exception:
-            pass
-        try:
-            page.remove_listener("response", on_response)
-        except Exception:
-            pass
+            autoplay_ok = try_autoplay(page)
+            if autoplay_ok:
+                print("Autoplay tentato su Sardegna 1", flush=True)
+            else:
+                print(">>> AUTOPLAY NON TROVATO: CLICCA TU <<<", flush=True)
 
-    with DEBUG_FILE.open("a", encoding="utf-8") as f:
-        f.write("\n===== Sardegna 1 =====\n")
-        for u in found_urls:
-            f.write(u + "\n")
+            autoplay_frames(page)
+            hard_mute_page(page)
 
-    preferred = [
-        u for u in found_urls
-        if "dmcdn.net" in u.lower()
-        and ".m3u8" in u.lower()
-        and "live-" in u.lower()
-    ]
-    if preferred:
-        for u in preferred:
-            if "live-720.m3u8" in u.lower() and validate_stream_url(u):
-                return u
-        for u in preferred:
-            if validate_stream_url(u):
-                return u
-        return preferred[0]
+            # SCROLL FIX
+            try:
+                print("Sardegna 1: scroll pagina", flush=True)
+                page.mouse.wheel(0, 800)
+                page.wait_for_timeout(500)
+                page.mouse.wheel(0, 800)
+                page.wait_for_timeout(500)
+                page.mouse.wheel(0, -400)
+            except:
+                pass
 
-    return ""
+            for i in range(24):
+                if i in (5, 10, 15):
+                    try:
+                        page.mouse.wheel(0, 600)
+                        page.wait_for_timeout(300)
+                    except:
+                        pass
+                preferred = [
+                    u for u in found_urls
+                    if "dmcdn.net" in u.lower()
+                    and ".m3u8" in u.lower()
+                    and "live-" in u.lower()
+                ]
+
+                if preferred:
+                    for u in preferred:
+                        if "live-720.m3u8" in u.lower() and validate_stream_url(u):
+                            return u
+                    for u in preferred:
+                        if validate_stream_url(u):
+                            return u
+                    return preferred[0]
+
+                page.wait_for_timeout(500)
+                hard_mute_page(page)
+
+        finally:
+            try:
+                page.remove_listener("request", on_request)
+            except:
+                pass
+            try:
+                page.remove_listener("response", on_response)
+            except:
+                pass
+
+        return ""
+
+    # 🔁 PRIMO TENTATIVO
+    print("Sardegna 1 → tentativo 1", flush=True)
+    stream = run_attempt(page)
+
+    if stream:
+        return stream
+
+    # ❌ FALLITO → RESET E RETRY
+    print("Sardegna 1 → primo tentativo fallito, retry...", flush=True)
+
+    try:
+        page.goto("about:blank", wait_until="load", timeout=10000)
+        page.wait_for_timeout(2000)
+    except:
+        pass
+
+    # 🔁 SECONDO TENTATIVO
+    print("Sardegna 1 → tentativo 2", flush=True)
+    stream = run_attempt(page)
+
+    return stream
 
 
 def extract_videolina_stream(page) -> str:
@@ -767,7 +788,6 @@ def publish_playlist_to_github(mode: str, version: str) -> None:
         "git", "add",
         str(PLAYLIST_FILE.name),
         str(BACKUP_FILE.name),
-        str(DEBUG_FILE.name),
         str(VERSION_FILE.name),
     ])
 
@@ -876,11 +896,21 @@ def main() -> int:
                 print("stream non trovato", flush=True)
 
         print("\n====== DMAX ======", flush=True)
-        dstream = extract_dmax_stream(page)
+        cfg = LIVE_CHANNELS["DMAX"]
+
+        dstream = extract_live_stream(
+            page,
+            "DMAX",
+            cfg["page"],
+            cfg["tokens"],
+            6000,
+            True
+        )
+
         if dstream:
             print("Trovato stream:", flush=True)
             print(dstream, flush=True)
-            content = replace_channel(content, LIVE_CHANNELS["DMAX"]["aliases"], dstream)
+            content = replace_channel(content, cfg["aliases"], dstream)
         else:
             print("stream non trovato", flush=True)
 

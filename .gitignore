@@ -1,4 +1,6 @@
-debug_streams.txt
 *.log
-__pycache__/
-*.pyc
+*.bat
+*.txt
+task/
+
+!playlist_version.txt

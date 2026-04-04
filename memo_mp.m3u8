@@ -236,6 +236,7 @@ https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/LA7_Cinema.svg/960px-LA7_Cinema.svg.png" group-title="Int. Europa" tvg-name="LA7 Cinema",La7 Cine IT
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
 
+
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it" group-title="Italy",Nove
 https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
 
@@ -244,6 +245,42 @@ https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/5IxIFJ0.png" tvg-id="DiscoveryChannel.it" group-title="Italy",Discovery Channel
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+
+#EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/269.m3u8
+
+#EXTINF:-1 tvg-id="Cielo.it" tvg-name="Cielo Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cielo_TV_logo_2013.svg" group-title="Italia",Cielo Italia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/281.m3u8
+
+#EXTINF:-1 tvg-id="Cine34.it" tvg-name="Cine 34" group-title="Italia",Cine 34
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/92.m3u8
+
+#EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" group-title="Italia",Focus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/89.m3u8
+
+#EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" group-title="Italia",Top Crime
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/86.m3u8
+
+#EXTINF:-1 tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Sky_TG24_logo_2020.svg" group-title="Italia",Sky TG24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/293.m3u8
+
+#EXTINF:-1 tvg-id="Mediaset.Italia.it" tvg-name="Mediaset Italia" tvg-logo="https://logo.m3uassets.com/mediasetitalia.png" group-title="Italia",Mediaset Italia 🇮🇹
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
+
 
 #EXTINF:-1,RAI Premium
 https://ilglobotv-live.akamaized.net/channels/RAIPremium/events(1000)/RAIPremium-video=1800000.m3u8
@@ -257,13 +294,6 @@ https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/raistoria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Storia",Rai Storia Italia
 https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
-
-#EXTINF:-1,Sky TG24
-https://acdn.ak-stream-videoplatform.sky.it/hls/2022/05/04/678727/HLS/master.m3u8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-origin=https://livetv.work
-#EXTVLCOPT:http-referrer=https://livetv.work/
-#EXTVLCOPT:http-reconnect=true
 
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
