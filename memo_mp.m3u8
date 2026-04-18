@@ -210,10 +210,10 @@ https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/
 https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 1",Rai 1 Italia
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
+https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 2",Rai 2 Italia
-https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
+https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 3",Rai 3 Italia
 https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
@@ -234,8 +234,7 @@ https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/LA7_Cinema.svg/960px-LA7_Cinema.svg.png" group-title="Int. Europa" tvg-name="LA7 Cinema",La7 Cine IT
-https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
-
+https://uvotv.zappr.stream/215.m3u8
 
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it" group-title="Italy",Nove
 https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
