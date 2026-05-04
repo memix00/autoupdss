@@ -288,15 +288,11 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/raistoria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Storia",Rai Storia Italia
-https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
 https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Sport Italia",Rai Sport IT
-https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
 https://live2.eu-north-1a.cf.dmcdn.net/sec2(JqP5tW_Dp08uXGrKJTdOjOpdaOa0d62q6yHNFyJf9z5_AzZiiuIAPfHp6_5lmBthBGgB3bWmK_aF2-udGKtMtR8yoaZgq77OejRKUwqK8RbnAtXsBqLBI46ESJ9B4kL6)/cloud/3/xa0aoxk/d/live-720.m3u8
