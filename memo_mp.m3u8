@@ -26,6 +26,9 @@ https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History2_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia 2
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53483.ts
+
 #EXTINF:-1 tvg-id="24Horas.TV" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Informativos" tvg-name="24h",24h
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8
 
@@ -237,7 +240,7 @@ https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://uvotv.zappr.stream/215.m3u8
 
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it" group-title="Italy",Nove
-https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/444729.ts
 
 #EXTINF:-1 tvg-name="DMAX" tvg-logo="https://i.imgur.com/dmEmRX7.png" tvg-id="DMAX.it" tvg-chno="52" group-title="DTV", DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
@@ -281,15 +284,9 @@ https://uvotv.zappr.stream/293.m3u8
 https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 
 
-#EXTINF:-1,RAI Premium
-https://ilglobotv-live.akamaized.net/channels/RAIPremium/events(1000)/RAIPremium-video=1800000.m3u8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-origin=http://www.freeintertv.com
-#EXTVLCOPT:http-referrer=http://www.freeintertv.com/
-#EXTVLCOPT:http-reconnect=true
-
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/rainews24/picture?width=200&height=200" group-title="Int. Europa" tvg-name="RaiNews24",RaiNews24 Italia
-https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
+#EXTINF:-1 tvg-id="RaiNews24.it" tvg-chno="50" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/rainews24.png" group-title="Rai",Rai News 24
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
 
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/raistoria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Rai Storia",Rai Storia Italia
 https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
@@ -316,6 +313,8 @@ https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 #EXTINF:-1 tvg-id="",Storie Criminali
 https://jmp2.uk/plu-66177d18c8311c0008d077d0.m3u8
 
+#EXTINF:-1 tvg-id="",Anime Channel
+https://host2.hbbtv.me:28443/hls/animechannel/index.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Documentari
 https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8
