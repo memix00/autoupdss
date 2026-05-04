@@ -268,6 +268,9 @@ https://uvotv.zappr.stream/92.m3u8
 #EXTVLCOPT:http-reconnect=true
 https://uvotv.zappr.stream/89.m3u8
 
+#EXTINF:-1 tvg-id="RealTime.it" tvg-chno="31" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/realtime.png" group-title="Discovery",Real Time
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+
 #EXTINF:-1 tvg-id="TopCrime.it" tvg-name="Top Crime" group-title="Italia",Top Crime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
