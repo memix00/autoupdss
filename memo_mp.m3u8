@@ -53,6 +53,28 @@ https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
 https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 
+#EXTINF:-1 tvg-id="discoveryhdtheater.ar" tvg-name="DISCOVERY Theater HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQYYxVUjsyNJVICTbPvJ9vPqrV_WU_Dx53FDIoz3G8Pg&s=10" group-title=" ✅ CULTURA  ✅",DISCOVERY Theater HD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53465.ts
+
+#EXTINF:-1 tvg-id="discoveryturbo.co" tvg-name="DISCOVERY Turbo HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-oy2o2z1-V66saeYPTRxqsuBGhnmzE-E04IAt7d6c8w&s=10" group-title=" ✅ CULTURA  ✅",DISCOVERY Turbo HD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53467.ts
+
+
+#EXTINF:-1 tvg-id="discoveryworldhd.ar" tvg-name="DISCOVERY World HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLc54PfIICksjBN_lFu0gGQAgRfFVqDJxZ5Pg7BVG1YA&s=10" group-title=" ✅ CULTURA  ✅",DISCOVERY World HD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53469.ts
+
+#EXTINF:-1 tvg-id="discoverychannel.co" tvg-name="Discovery Channel HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2he_V5EXXTHItP1KU4wxitqgJH_SHy6yBRNYEx-AXwg&s=10" group-title=" ✅ CULTURA  ✅",Discovery Channel HD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53457.ts
+
+#EXTINF:-1 tvg-id="investigationdiscovery.co" tvg-name="Discovery Investigation HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" group-title=" ✅ CULTURA  ✅",Discovery Investigation HD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD |opc-1|
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CINECANAL" tvg-logo="http://mundo2.vip:8080/images/a0ccc44fba4acc60927f7e08695676e7.png" group-title="⏩ LATINOS PREMIUM ⏪",CINECANAL
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/317508.ts
+
 #EXTINF:-1 tvg-id="",South Park
 https://jmp2.uk/plu-628751bb7154a40007168843.m3u8
 
@@ -74,8 +96,6 @@ https://jmp2.uk/plu-6554bd45aa9ffb00088e5589.m3u8
 #EXTINF:-1 tvg-id="",Crimen & Historia
 https://jmp2.uk/plu-64ddcbb14c5ed80008fad416.m3u8
 
-#EXTINF:-1 tvg-id="",Dragon Ball
-https://jmp2.uk/plu-685a996c7c4f2ad40cb4f276.m3u8
 
 #EXTINF:-1 tvg-id="",Dragon Ball Z
 https://jmp2.uk/plu-68e8fd7c3ede4398bc69af93.m3u8
@@ -155,8 +175,6 @@ https://jmp2.uk/plu-5f6a38eaa5b68b0007a00e7a.m3u8
 #EXTINF:-1 tvg-id="",Pluto TV Series Sci-Fi
 https://jmp2.uk/plu-65ddec1ef7f0af0008be4b65.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Snooker 900
-https://jmp2.uk/plu-69148c470155f9b136b5d856.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Thrillers
 https://jmp2.uk/plu-5f1ac8a87cd38d000745d7cf.m3u8
@@ -239,6 +257,16 @@ https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/LA7_Cinema.svg/960px-LA7_Cinema.svg.png" group-title="Int. Europa" tvg-name="LA7 Cinema",La7 Cine IT
 https://uvotv.zappr.stream/215.m3u8
 
+#EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/269.m3u8
+
+#EXTINF:-1 tvg-id="Cielo.it" tvg-name="Cielo Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cielo_TV_logo_2013.svg" group-title="Italia",Cielo Italia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+https://uvotv.zappr.stream/281.m3u8
+
 #EXTINF:-1 tvg-name="Nove" tvg-logo="https://i.imgur.com/Hp723RU.png" tvg-id="Nove.it" group-title="Italy",Nove
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/444729.ts
 
@@ -247,6 +275,9 @@ https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/5IxIFJ0.png" tvg-id="DiscoveryChannel.it" group-title="Italy",Discovery Channel
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="IT: History" tvg-logo="http://logos.ti7an.net/logos/EU_Italy_Intrattenimento/History.png" group-title="ITALIA",IT: History
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/444732.ts
 
 #EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
