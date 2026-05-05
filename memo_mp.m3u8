@@ -26,6 +26,9 @@ https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
 
+#EXTINF:-1 tvg-id="historychannel.mx" tvg-name="HISTORY HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0sA5mYs1JHLbc3-pA1kNcCehHY4Yl8UA7J-oXdFGr7g&s=10" group-title=" ✅ CULTURA  ✅",HISTORY HD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53481.ts
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History2_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia 2
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53483.ts
 
@@ -69,17 +72,23 @@ http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53457.ts
 #EXTINF:-1 tvg-id="investigationdiscovery.co" tvg-name="Discovery Investigation HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" group-title=" ✅ CULTURA  ✅",Discovery Investigation HD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53462.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD |opc-1|
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="CINECANAL" tvg-logo="http://mundo2.vip:8080/images/a0ccc44fba4acc60927f7e08695676e7.png" group-title="⏩ LATINOS PREMIUM ⏪",CINECANAL
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/317508.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PARAMOUNT+ FHD" tvg-logo="http://mundo2.vip:8080/images/29938cae6727790a47491882e556fce7.png" group-title="♐ CINEMA VIP ♐",PARAMOUNT+
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/317033.ts
 
 #EXTINF:-1 tvg-id="",South Park
 https://jmp2.uk/plu-628751bb7154a40007168843.m3u8
 
 #EXTINF:-1 tvg-id="",Crímenes Reales 
 https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="animalplanet.mx" tvg-name="ANIMAL Planet HD." tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpiwMvAu1bIRrZ-0sQw0shYJrp_Y4Klp6yFbE0NgU-g&s=10" group-title=" ✅ CULTURA  ✅",ANIMAL Planet HD.
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/54172.ts
 
 #EXTINF:-1 tvg-id="",Cazasubastas
 https://jmp2.uk/plu-6335a6b6e6f7a600076e589e.m3u8
