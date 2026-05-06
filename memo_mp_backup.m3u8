@@ -23,6 +23,9 @@ https://atres-live.atresmedia.com/c97a5a32b3904d1cfeecbe5f50914ac971bbed7c_ES_17
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
 https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Nzc5OTgyNTgsIm5iZiI6MTc3Nzk5ODI1OCwiZXhwIjoxNzc3OTk4NjE4LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiNzkuMTUyLjIyNC4yMTEifQ.5s5A_Y1dSe-CNra3QZWUbbIRTsrn6o2CR6PHBkQFRdA/es/EHD_647574B/dash/DMAX_SPAIN_AVOD_EHD_647574B.mpd
 
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
 
@@ -35,26 +38,7 @@ http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53483.ts
 #EXTINF:-1 tvg-id="24Horas.TV" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Informativos" tvg-name="24h",24h
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="TDP.TV" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="Deportivos" tvg-name="Teledeporte",Teledeporte
-https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="TV3CAT.es" tvg-name="TV3Cat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/TV3CAT.svg" group-title="España",TV3Cat
-https://directes-tv-int.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="Euronews.TV" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Informativos" tvg-name="Euronews",Euronews
-https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
-
-#EXTINF:-1 tvg-id="ElConfidencial.TV" tvg-logo="https://graph.facebook.com/elconfidencial/picture?width=200&height=200" group-title="Informativos" tvg-name="El Confidencial",El Confidencial
-https://dgrfwaj8stp69.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hmbd9k13g6zsa/live/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-
-#EXTINF:-1 tvg-id="E3.TV" tvg-logo="https://graph.facebook.com/Esport3/picture?width=200&height=200" group-title="Deportivos" tvg-name="Esport 3",Esport 3 GEO CAT
-https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/3-24_logo.svg/512px-3-24_logo.svg.png" tvg-id="324.cat" group-title="Informativos",Canal 324
-https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
-https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 
 #EXTINF:-1 tvg-id="discoveryhdtheater.ar" tvg-name="DISCOVERY Theater HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQYYxVUjsyNJVICTbPvJ9vPqrV_WU_Dx53FDIoz3G8Pg&s=10" group-title=" ✅ CULTURA  ✅",DISCOVERY Theater HD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53465.ts
@@ -72,8 +56,19 @@ http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53457.ts
 #EXTINF:-1 tvg-id="investigationdiscovery.co" tvg-name="Discovery Investigation HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" group-title=" ✅ CULTURA  ✅",Discovery Investigation HD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53462.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
-http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
+
+
+#EXTINF:-1 tvg-id="" tvg-name="AXN FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMpELJrYH7D81zVpTgT7T96pw0EQCfsgD7A&s" group-title="⏩ESP | Series | M+⏪",AXN FHD 
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316363.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AXN Movies FHD |opc-1|" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AXN_White_logo_(2015).svg/1200px-AXN_White_logo_(2015).svg.png" group-title="⏩CINE Y SERIES | MOVISTAR +⏪",AXN Movies FHD |opc-1|
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/315765.ts
+
+#EXTINF:-1 tvg-id="1524dtv.co" tvg-name="CINE | HBO  FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/HBO_Cine%2C_fanmade_del_logo_de_Cinemax.png" group-title="❇️ CINE PREMIUM Exclusivo ❇️",CINE | HBO  FHD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/54.ts
+
+#EXTINF:-1 tvg-id="526" tvg-name="CINE | HBO XTREME FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGbj613doA_lyYhNByuF0DRhIk9yKSfzkLA&s.png" group-title="❇️ CINE PREMIUM Exclusivo ❇️",CINE | HBO XTREME FHD
+http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/48.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="CINECANAL" tvg-logo="http://mundo2.vip:8080/images/a0ccc44fba4acc60927f7e08695676e7.png" group-title="⏩ LATINOS PREMIUM ⏪",CINECANAL
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/317508.ts
@@ -86,6 +81,22 @@ https://jmp2.uk/plu-628751bb7154a40007168843.m3u8
 
 #EXTINF:-1 tvg-id="",Crímenes Reales 
 https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TDP.TV" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="Deportivos" tvg-name="Teledeporte",Teledeporte
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="TV3CAT.es" tvg-name="TV3Cat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/TV3CAT.svg" group-title="España",TV3Cat
+https://directes-tv-int.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
+
+
+#EXTINF:-1 tvg-id="E3.TV" tvg-logo="https://graph.facebook.com/Esport3/picture?width=200&height=200" group-title="Deportivos" tvg-name="Esport 3",Esport 3 GEO CAT
+https://directes-tv-cat.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/3-24_logo.svg/512px-3-24_logo.svg.png" tvg-id="324.cat" group-title="Informativos",Canal 324
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
+https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 
 #EXTINF:-1 tvg-id="animalplanet.mx" tvg-name="ANIMAL Planet HD." tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpiwMvAu1bIRrZ-0sQw0shYJrp_Y4Klp6yFbE0NgU-g&s=10" group-title=" ✅ CULTURA  ✅",ANIMAL Planet HD.
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/54172.ts
@@ -288,15 +299,6 @@ https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="" tvg-name="IT: History" tvg-logo="http://logos.ti7an.net/logos/EU_Italy_Intrattenimento/History.png" group-title="ITALIA",IT: History
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/444732.ts
 
-#EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/269.m3u8
-
-#EXTINF:-1 tvg-id="Cielo.it" tvg-name="Cielo Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cielo_TV_logo_2013.svg" group-title="Italia",Cielo Italia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-https://uvotv.zappr.stream/281.m3u8
 
 #EXTINF:-1 tvg-id="Cine34.it" tvg-name="Cine 34" group-title="Italia",Cine 34
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -345,9 +347,6 @@ https://live2.eu-north-1a.cf.dmcdn.net/sec2(6XYU_iYxD4xfeH9frSs8GSrSbUtFsmkCkXcr
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
-
-#EXTINF:-1 tvg-id="RaiScuola.it" tvg-name="Rai Scuola" group-title="Generalistas",Rai Scuola
-https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 
 #EXTINF:-1 tvg-id="",Storie Criminali
 https://jmp2.uk/plu-66177d18c8311c0008d077d0.m3u8
@@ -486,3 +485,35 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 
 #EXTINF:-1 tvg-name="The Pet Collective" group-title="Animali",The Pet Collective
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SPORTTV1(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_1HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV 1
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv1.m3u8
+#EXTINF:-1 tvg-id="SPORTTV2(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_2HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  2
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv2.m3u8
+#EXTINF:-1 tvg-id="SPORTTV3(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_3HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  3
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv3.m3u8
+#EXTINF:-1 tvg-id="SPORTTV4(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_4HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  4
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv4.m3u8
+#EXTINF:-1 tvg-id="SPORTTV5(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_5HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  5
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv5.m3u8
+#EXTINF:-1 tvg-id="SPORTTV6(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_6HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  6
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv6.m3u8
+#EXTINF:-1 tvg-id="SPORTTV7(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_7HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  7
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv7.m3u8
+
+#EXTINF:-1 tvg-id="DAZN1(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2Fcanalnos1.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 1
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven1.m3u8
+#EXTINF:-1 tvg-id="DAZN2(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2Fcanalnos2.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 2
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven2.m3u8
+#EXTINF:-1 tvg-id="DAZN3(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FDESP3HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 3
+#EXTGRP:DESPORTO
+https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven3.m3u8
