@@ -486,34 +486,59 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-name="The Pet Collective" group-title="Animali",The Pet Collective
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SPORTTV1(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_1HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV 1
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv1.m3u8
-#EXTINF:-1 tvg-id="SPORTTV2(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_2HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  2
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv2.m3u8
-#EXTINF:-1 tvg-id="SPORTTV3(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_3HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  3
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv3.m3u8
-#EXTINF:-1 tvg-id="SPORTTV4(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_4HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  4
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv4.m3u8
-#EXTINF:-1 tvg-id="SPORTTV5(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_5HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  5
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv5.m3u8
-#EXTINF:-1 tvg-id="SPORTTV6(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_6HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  6
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv6.m3u8
-#EXTINF:-1 tvg-id="SPORTTV7(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_7HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  7
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv7.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: TR SPORT
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/56334.m3u8
 
-#EXTINF:-1 tvg-id="DAZN1(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2Fcanalnos1.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 1
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven1.m3u8
-#EXTINF:-1 tvg-id="DAZN2(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2Fcanalnos2.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 2
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven2.m3u8
-#EXTINF:-1 tvg-id="DAZN3(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FDESP3HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 3
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven3.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SUPER TENIS HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/56345.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_eurosport-1.png" group-title="ALL COUNTRY SPORTS",ITA: EUROSPORT 1 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5023.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: EUROSPORT 2 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5022.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Sky_Sport_24_HD_-_Logo_2020.svg/1280px-Sky_Sport_24_HD_-_Logo_2020.svg.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT 24 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/962.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Sky_Sport_Arena_-_Logo_2018.svg/1280px-Sky_Sport_Arena_-_Logo_2018.svg.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT ARENA
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/3337.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY SPORT NBA
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5846.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY SPORT F1 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/35815.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_sport_uno.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT UNO
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5037.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_sport_football.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT FOOTBALL
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5038.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_sport_nba.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT NBA
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5039.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY SPORT TENNIS
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/56332.m3u8
+#EXTINF:-1 tvg-logo="http://x12tv.co/mbc/italyyy.png" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 1 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57019.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_calcio.png" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 2 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57020.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/788px-SI_Solo_Calcio_logo_%282019%29.svg.png" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 3 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57021.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 4 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57022.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 5 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57023.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 6 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57024.m3u8
+
+#EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN1 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN1 ALT
+http://46.151.196.223:14366
+
+#EXTINF:-1 tvg-id="ESPN 2" tvg-name="- ESPN2 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN2 ALT
+http://46.151.196.223:14553
+
+#EXTINF:-1 tvg-id="ESPN 3" tvg-name="- ESPN3 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN3 ALT
+http://46.151.196.223:14444
+
+#EXTINF:-1 tvg-id="ESPN 4" tvg-name="- ESPN4 alternativo HD³" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN4 ALT
+http://46.151.196.223:14450
+
+
+#EXTINF:-1 tvg-id="ESPN 5" tvg-name="- ESPN5 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN5 ALT
+http://46.151.196.223:14456
+
+
+https://raw.githubusercontent.com/manelbidu73-lgtm/PT_iptv/refs/heads/main/Primeiralist.m3u
