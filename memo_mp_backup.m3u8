@@ -9,19 +9,19 @@ https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live.atresmedia.com/f4c86d18fe16420fab88a4ce99180fdb11c6f24f_ES_1778314898_1778343638/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/60716c716f813825cd2506ff09f0cefdb4bcc067_ES_1778343695_1778372435/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live.atresmedia.com/c27acbac86ccabe87909b12b933ea7b67bd48664_ES_1778314889_1778343629/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/7987ae156392da9a64e4f4026b86a518b236028d_ES_1778343686_1778372426/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live.atresmedia.com/966c7b6a325d5e689810e6182b7d04690ee80967_ES_1778314907_1778343647/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/a79200a54f2b0f46c3ef0a07701011918f4fc357_ES_1778343705_1778372445/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live.atresmedia.com/4907a93867a240d46a07482444cbde3f32bf385b_ES_1778314916_1778343656/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/3ef935195d076f80f433a9567359f10f994477e2_ES_1778343714_1778372454/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
-https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzgzMTQ4NjksIm5iZiI6MTc3ODMxNDg2OSwiZXhwIjoxNzc4MzE1MjI5LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiNzkuMTUyLjIyNC4yMTEifQ.n0LCFBu3CCg9OB3zlRuJg8LgE5PH5ePb02gpnIQe25c/es/EHD_647574B/dash/DMAX_SPAIN_AVOD_EHD_647574B.mpd
+https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NzgzNDM2NjUsIm5iZiI6MTc3ODM0MzY2NSwiZXhwIjoxNzc4MzQ0MDI1LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiNzkuMTUyLjIyNC4yMTEifQ.teDDx1O45jEmJbUQ-_Kw4yy5BG5Nji35QTVcATKLJPs/es/EHD_647574B/dash/DMAX_SPAIN_AVOD_EHD_647574B.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
@@ -340,7 +340,7 @@ https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(WdUpbGNddEoCPLMxJQ5lgaVj7bsSxHRFhDBLeUEbeB71u-HbP1QW9RvUqJzYs373aXwgoAtSaQzA6oKQak10bQvlWKVBsZD2BQOAY7CG9ly3h7FF-3ndIc0-igByy_lI)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(gYxUCi86mVNSEzrFeZAcz69elbkacTBDUyBYCzqiCOosp5fLhz8f-_HJwA9q3_8XPzsNmAUuqllbIRbqtq0BMo03DhVJ6ldhaTUMWKcz4g8TQb9g23h7kxVQd2oov-87)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
 https://live2.eu-north-1b.cf.dmcdn.net/sec2(JF_9dl6sxPaYFP7x5EenlD0FGeriSK-w9OwrdzIPz0USDe-IUFlCGfNPlPxFy-RnUpl5Cq_ZaOeSo5ax5n5aG8jFCtPLM1OtRokBdFUbtMx5as4iV2mkcLrRQ0e8B41r)/cloud/3/x893du6/d/live-720.m3u8
@@ -486,34 +486,72 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-name="The Pet Collective" group-title="Animali",The Pet Collective
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SPORTTV1(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_1HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV 1
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv1.m3u8
-#EXTINF:-1 tvg-id="SPORTTV2(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_2HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  2
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv2.m3u8
-#EXTINF:-1 tvg-id="SPORTTV3(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_3HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  3
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv3.m3u8
-#EXTINF:-1 tvg-id="SPORTTV4(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_4HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  4
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv4.m3u8
-#EXTINF:-1 tvg-id="SPORTTV5(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_5HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  5
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv5.m3u8
-#EXTINF:-1 tvg-id="SPORTTV6(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_6HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  6
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv6.m3u8
-#EXTINF:-1 tvg-id="SPORTTV7(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_7HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",SP TV  7
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_sportv7.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: TR SPORT
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/56334.m3u8
 
-#EXTINF:-1 tvg-id="DAZN1(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2Fcanalnos1.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 1
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven1.m3u8
-#EXTINF:-1 tvg-id="DAZN2(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2Fcanalnos2.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 2
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven2.m3u8
-#EXTINF:-1 tvg-id="DAZN3(src05).pt" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FDESP3HD.png&profile=ott_16_220x64&client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&format=image/png.pt",DZ 3
-#EXTGRP:DESPORTO
-https://xn--d204s777hp27.cloudfronte.lat/zzzstream/pt_eleven3.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SUPER TENIS HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/56345.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_eurosport-1.png" group-title="ALL COUNTRY SPORTS",ITA: EUROSPORT 1 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5023.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: EUROSPORT 2 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5022.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Sky_Sport_24_HD_-_Logo_2020.svg/1280px-Sky_Sport_24_HD_-_Logo_2020.svg.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT 24 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/962.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Sky_Sport_Arena_-_Logo_2018.svg/1280px-Sky_Sport_Arena_-_Logo_2018.svg.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT ARENA
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/3337.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY SPORT NBA
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5846.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY SPORT F1 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/35815.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_sport_uno.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT UNO
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5037.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_sport_football.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT FOOTBALL
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5038.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_sport_nba.png" group-title="ALL COUNTRY SPORTS",IT: SKY SPORT NBA
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/5039.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY SPORT TENNIS
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/56332.m3u8
+#EXTINF:-1 tvg-logo="http://x12tv.co/mbc/italyyy.png" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 1 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57019.m3u8
+#EXTINF:-1 tvg-logo="http://epg.localconectivity.net/LOGO/ITALIE/rsz_sky_calcio.png" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 2 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57020.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/788px-SI_Solo_Calcio_logo_%282019%29.svg.png" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 3 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57021.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 4 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57022.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 5 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57023.m3u8
+#EXTINF:-1 tvg-logo="" group-title="ALL COUNTRY SPORTS",ITA: SKY CALCIO 6 HD
+http://blackiptv.net:8080/live/Resulgonul/4YkXmwCGOo/57024.m3u8
+
+#EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN1 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN1 ALT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-reconnect=true
+http://46.151.196.223:14366
+
+#EXTINF:-1 tvg-id="ESPN2" tvg-name="ESPN2 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN2 ALT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-reconnect=true
+http://46.151.196.223:14553
+
+#EXTINF:-1 tvg-id="ESPN3" tvg-name="ESPN3 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN3 ALT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-reconnect=true
+http://46.151.196.223:14444
+
+#EXTINF:-1 tvg-id="ESPN4" tvg-name="ESPN4 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN4 ALT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-reconnect=true
+http://46.151.196.223:14450
+
+#EXTINF:-1 tvg-id="ESPN5" tvg-name="ESPN5 ALT" tvg-logo="https://i.imgur.com/hJr0Ay6.png" group-title="ESPN",- ESPN5 ALT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://google.com/
+#EXTVLCOPT:http-reconnect=true
+http://46.151.196.223:14456
+
+
