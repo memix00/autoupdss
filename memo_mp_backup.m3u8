@@ -32,8 +32,6 @@ https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJp
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
 
-#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic Latin America
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-46_720.m3u8
 
 #EXTINF:-1 tvg-id="NationalGeographicWild.in" tvg-logo="https://dtil.tmsimg.com/assets/s143572_ld_h15_aa.png?lock=720x540" group-title="Documentary",National Geographic Wild
 http://103.157.248.140:8000/play/a010/index.m3u8
@@ -70,7 +68,7 @@ http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53462.ts
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="AXN FHD |opc-1|" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMpELJrYH7D81zVpTgT7T96pw0EQCfsgD7A&s" group-title="⏩ESP | Series | M+⏪",AXN FHD 
+#EXTINF:-1 tvg-id="" tvg-name="AXN FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMpELJrYH7D81zVpTgT7T96pw0EQCfsgD7A&s" group-title="⏩ESP | Series | M+⏪",AXN FHD 
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316363.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AXN Movies FHD |opc-1|" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AXN_White_logo_(2015).svg/1200px-AXN_White_logo_(2015).svg.png" group-title="⏩CINE Y SERIES | MOVISTAR +⏪",AXN Movies FHD |opc-1|
@@ -165,8 +163,6 @@ https://jmp2.uk/plu-645a309c5a0cd5000873f609.m3u8
 #EXTINF:-1 tvg-id="",Pluto TV Cine Acción
 https://jmp2.uk/plu-5f1ac2591dd8880007bb7d6d.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Cine Comedia
-https://jmp2.uk/plu-5f1ac8099c49f600076579b2.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Cine de autor
 https://jmp2.uk/plu-60cc807324d60a0007708dc8.m3u8
@@ -174,14 +170,10 @@ https://jmp2.uk/plu-60cc807324d60a0007708dc8.m3u8
 #EXTINF:-1 tvg-id="",Pluto TV Cine Drama
 https://jmp2.uk/plu-5f1ac947dcd00d0007937c08.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Cine Estelar
-https://jmp2.uk/plu-5f1ac1f1b66c76000790ef27.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Cine Estelar+
 https://jmp2.uk/stvp-ESAJ3800001KT?.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Gore & Slasher
-https://jmp2.uk/plu-66b0dfa1d512590008bfa7fd.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Historia
 https://jmp2.uk/plu-61cd7b49543066000713b620.m3u8
@@ -204,12 +196,6 @@ https://jmp2.uk/plu-65ce480a78df2200131c597b.m3u8
 #EXTINF:-1 tvg-id="",Pluto TV Sci-Fi
 https://jmp2.uk/plu-5f6a38eaa5b68b0007a00e7a.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Series Sci-Fi
-https://jmp2.uk/plu-65ddec1ef7f0af0008be4b65.m3u8
-
-
-#EXTINF:-1 tvg-id="",Pluto TV Thrillers
-https://jmp2.uk/plu-5f1ac8a87cd38d000745d7cf.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV True Crime
 https://jmp2.uk/plu-64a3f200f238ce0008d47247.m3u8
@@ -244,8 +230,6 @@ https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8
 #EXTINF:-1 tvg-id="RTVE_SomosCine.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="Somos Cine (RTVE)",Somos Cine (RTVE)
 https://ztnr.rtve.es/ztnr/6909845.m3u8
 
-#EXTINF:-1 tvg-name="Cine Friki" group-title="Cine",Cine Friki
-https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8
 
 #EXTINF:-1 tvg-id="RakutenTVTopMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Top Movies Spain 
 https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8
@@ -253,14 +237,10 @@ https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Action Movies Spain 
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Comedy Movies Spain 
-https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
 
 #EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Drama Movies Spain 
 https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Family;Movies",Rakuten TV Family Movies Spain
-https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" group-title="Int. Europa" tvg-name="Rai 1",Rai 1 Italia
 https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
@@ -274,14 +254,6 @@ https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" group-title="Generalistas",Rai 5
 http://78.130.250.2:8023/play/a04o/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/960px-Rete_4_-_Logo_2018.svg.png" group-title="Int. Europa" tvg-name="Rete 4 Italia",Rete 4 IT
-https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Canale5.png" group-title="Int. Europa" tvg-name="Canale 5 Italia",Canale 5 IT
-https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/960px-Italia_1_logo.svg.png" group-title="Int. Europa" tvg-name="Italia 1 Italia",Italia 1 IT
-https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png" group-title="Int. Europa" tvg-name="La7 Italia",La7 Italia IT
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
@@ -384,12 +356,6 @@ https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8
 #EXTINF:-1 tvg-id="",Pluto TV Cinema Italiano
 https://jmp2.uk/plu-608aa7d8359b270007861489.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Cinema Orientale
-https://jmp2.uk/plu-6786235bd648bf0008c2780a.m3u8
-
-
-#EXTINF:-1 tvg-id="",Pluto TV Eros
-https://jmp2.uk/plu-66335489307fa300082bd6e4.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Film
 https://jmp2.uk/plu-608aa17fb9f4490007e6419a.m3u8
@@ -403,38 +369,12 @@ https://jmp2.uk/plu-608aa20a2e7f270007c4878d.m3u8
 #EXTINF:-1 tvg-id="",Pluto TV Film Azione+
 https://jmp2.uk/stvp-ITBC3000003CT?.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Film Commedia
-https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Film Commedia+
-https://jmp2.uk/stvp-ITBC3000002WL?.m3u8
-
 #EXTINF:-1 tvg-id="",Pluto TV Film Thriller
 https://jmp2.uk/plu-608aa5e995132a00075f7005.m3u8
 
 #EXTINF:-1 tvg-id="PlutoTVHorror.us@IT",Pluto TV Horror
 https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8
 
-#EXTINF:-1 tvg-id="",Pluto TV Legami Letali
-https://jmp2.uk/plu-64808a8c536e0c0008a276d1.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Natura
-https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Notti di Crimine
-https://jmp2.uk/plu-6911c9b88caba6f046c5ca8f.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Notti di Sangue
-https://jmp2.uk/plu-6911c92b4316999535eb1e08.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Notti di Terrore
-https://jmp2.uk/plu-6911c8dd8caba6f046c5c5d5.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Paranormal
-https://jmp2.uk/plu-66c70033b1a34600087bb09a.m3u8
-
-#EXTINF:-1 tvg-id="",Pluto TV Real Life
-https://jmp2.uk/plu-60801976f92a750007a0699c.m3u8
 
 #EXTINF:-1 tvg-id="",Pluto TV Real Life+
 https://jmp2.uk/stvp-ITAJ3800006UB?.m3u8
@@ -468,8 +408,6 @@ https://amg01821-amg01821c38-rakuten-it-10669.playouts.now.amagi.tv/ts-eu-w1-n2/
 
 #EXTINF:-1 tvg-id="RakutenTVTopMovies.es@Italy" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Top Movies Italy https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Italy" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Movies",Rakuten TV Comedy Movies Italy
-https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Rakuten_TV_logo.svg/330px-Rakuten_TV_logo.svg.png",Brividy Cinema 
 https://ixmediasrl-serially-1-it.rakuten.wurl.tv/playlist.m3u8
@@ -573,4 +511,19 @@ https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="Sports",Fox Sports 1
 https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="FoxSports3LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/960px-Fox_sports_3_logo.svg.png" group-title="Sports",Fox Sports 3 Latin America
+
+#EXTINF:0,Premier Sports 1
+#EXTVLCOPT:network-caching=1000
+http://edinpajalic.streamtv.to:8080/sasodaniel2/GTG53de3f3erFR/1808
+#EXTINF:0,Fox Sports 1
+#EXTVLCOPT:network-caching=1000
+http://edinpajalic.streamtv.to:8080/sasodaniel2/GTG53de3f3erFR/553
+#EXTINF:0,Fox Sports 2
+#EXTVLCOPT:network-caching=1000
+http://edinpajalic.streamtv.to:8080/sasodaniel2/GTG53de3f3erFR/7759
+#EXTINF:0,Fox Soccer Plus
+#EXTVLCOPT:network-caching=1000
+http://edinpajalic.streamtv.to:8080/sasodaniel2/GTG53de3f3erFR/6206
+#EXTINF:0,NBA TV
+#EXTVLCOPT:network-caching=1000
+http://edinpajalic.streamtv.to:8080/sasodaniel2/GTG53de3f3erFR/533
