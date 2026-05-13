@@ -14,7 +14,7 @@ https://atres-live.atresmedia.com/dcd1b593d59e4177080664ddf070fda3f74e14ae_ES_17
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General",Cuatro
 http://45.95.78.232:8001/udp/239.106.83.2:5000
 
-EXTINF:-1 tvg-id="Telecinco.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telecinco_2024_Logo.svg" group-title="General",Telecinco
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telecinco_2024_Logo.svg" group-title="General",Telecinco
 http://45.95.78.232:8001/udp/239.106.83.3:5000
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
