@@ -258,8 +258,8 @@ http://78.130.250.2:8023/play/a04o/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png" group-title="Int. Europa" tvg-name="La7 Italia",La7 Italia IT
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/LA7_Cinema.svg/960px-LA7_Cinema.svg.png" group-title="Int. Europa" tvg-name="LA7 Cinema",La7 Cine IT
-https://uvotv.zappr.stream/215.m3u8
+#EXTINF:-1 tvg-id="LA7 Cinema.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/LA7Cinema.png"tvg-chno="29"group-title="La7":http-user-agent="HbbTV/1.6.1",LA7 Cinema
+https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd
 
 #EXTINF:-1 tvg-id="TV8.it" tvg-name="TV8 Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/TV8_logo.svg" group-title="Italia",TV8 Italia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -313,9 +313,8 @@ https://uvotv.zappr.stream/293.m3u8
 https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 
 
-#EXTINF:-1 tvg-id="RaiNews24.it" tvg-chno="50" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/rainews24.png" group-title="Rai",Rai News 24
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-id="RaiNews24.it" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rainews24.png" group-title="Rai",Rai News 24
+https://d27wu3gni4gipu.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/caf94a3c-5852-48c4-9699-3d5a5f513353/2.m3u8
 
 
 
