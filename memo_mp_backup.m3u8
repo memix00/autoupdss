@@ -12,10 +12,10 @@ https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 https://atres-live.atresmedia.com/edd5e56187aaaa2b392da3ba4da7a95478e36138_ES_1778775706_1778804446/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General",Cuatro
-http://45.95.78.232:8001/udp/239.106.83.2:5000
+http://92.176.119.180:2095/play/a1g2
 
 #EXTINF:-1 tvg-id="Telecinco.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telecinco_2024_Logo.svg" group-title="General",Telecinco
-http://45.95.78.232:8001/udp/239.106.83.3:5000
+http://92.176.119.180:2095/play/a15y
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
 https://atres-live.atresmedia.com/95a3ccf253530a1ad01f1ed87de3499307ceee4a_ES_1778775697_1778804437/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
