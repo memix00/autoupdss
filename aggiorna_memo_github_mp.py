@@ -5,6 +5,7 @@ import sys
 import os
 import time
 import subprocess
+import re
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 from playwright.sync_api import sync_playwright
@@ -72,6 +73,129 @@ VIDEOLINA = {
     "aliases": ["Videolina"],
     "wait_ms": 3000,
 }
+
+
+RAW_AUTO_SOURCE_URL = "https://raw.githubusercontent.com/picturekey/mi-lista-iptv/refs/heads/main/playlist.m3u8"
+
+RAW_AUTO_CHANNELS = {
+    "Cuatro": {
+        "aliases": ["Cuatro"],
+        "match_names": ["cuatro", "cuatro.es"],
+    },
+    "Telecinco": {
+        "aliases": ["Telecinco", "Tele 5", "T5"],
+        "match_names": ["telecinco", "telecinco.es", "tele 5", "t5"],
+    },
+}
+
+RAW_BLOCKED_URL_PARTS = [
+    ".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", "logo", "tvg-logo",
+    "facebook", "twitter", "instagram", "youtube", "wikipedia", "wikimedia",
+]
+
+
+def download_text_url(url: str, timeout: int = 20) -> str:
+    req = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "text/plain,application/x-mpegURL,application/vnd.apple.mpegurl,*/*",
+        },
+    )
+    with urlopen(req, timeout=timeout) as resp:
+        return resp.read().decode("utf-8", errors="ignore")
+
+
+def is_probable_playable_url(url: str) -> bool:
+    u = url.lower().strip()
+    if not u.startswith(("http://", "https://")):
+        return False
+    if any(part in u for part in RAW_BLOCKED_URL_PARTS):
+        return False
+    return any(
+        token in u
+        for token in [".m3u8", ".mpd", "/play/", "/live/", "/hls/", "/udp/", ":8000", ":8001", ":8080", ":2095"]
+    )
+
+
+def raw_candidate_score(url: str) -> int:
+    u = url.lower()
+    score = 0
+    if ".m3u8" in u:
+        score += 10
+    if ".mpd" in u:
+        score += 8
+    if "/play/" in u:
+        score += 6
+    if "/live/" in u or "/hls/" in u:
+        score += 4
+    if "master" in u or "playlist" in u:
+        score += 2
+    if any(x in u for x in ["adservice", "doubleclick", "googleads", "imasdk", "manifest.webmanifest"]):
+        score -= 30
+    return score
+
+
+def extract_channel_candidates_from_raw(raw_text: str, match_names: list[str]) -> list[str]:
+    candidates = []
+    chunks = re.split(r"(?=#EXTINF)", raw_text.replace("\r", "\n"))
+
+    for chunk in chunks:
+        chunk_lower = chunk.lower()
+        if not any(name.lower() in chunk_lower for name in match_names):
+            continue
+
+        urls = re.findall(r"https?://[^\s\"'<>]+", chunk)
+        for url in urls:
+            clean = url.strip().rstrip(",;)]}")
+            if is_probable_playable_url(clean) and clean not in candidates:
+                candidates.append(clean)
+
+    return sorted(candidates, key=raw_candidate_score, reverse=True)
+
+
+def choose_working_raw_stream(channel_name: str, candidates: list[str]) -> str:
+    if not candidates:
+        print(f"{channel_name}: nessuna URL candidata trovata nel raw", flush=True)
+        return ""
+
+    print(f"{channel_name}: trovate {len(candidates)} URL candidate nel raw", flush=True)
+    for candidate in candidates:
+        print(f"{channel_name}: provo -> {candidate}", flush=True)
+        if validate_stream_url(candidate):
+            print(f"{channel_name}: URL funzionante confermata", flush=True)
+            return candidate
+
+    print(f"{channel_name}: nessuna URL confermata, non aggiorno il canale", flush=True)
+    return ""
+
+
+def update_raw_auto_channels(content: str) -> str:
+    print("\n====== Cuatro / Telecinco da RAW ======", flush=True)
+    try:
+        raw_text = download_text_url(RAW_AUTO_SOURCE_URL)
+    except Exception as e:
+        print(f"RAW: impossibile scaricare lista -> {e}", flush=True)
+        return content
+
+    with DEBUG_FILE.open("a", encoding="utf-8") as f:
+        f.write("\n===== RAW Cuatro / Telecinco =====\n")
+        f.write(f"Source: {RAW_AUTO_SOURCE_URL}\n")
+
+    for channel_name, cfg in RAW_AUTO_CHANNELS.items():
+        candidates = extract_channel_candidates_from_raw(raw_text, cfg["match_names"])
+        with DEBUG_FILE.open("a", encoding="utf-8") as f:
+            f.write(f"\n--- {channel_name} candidates ---\n")
+            for u in candidates:
+                f.write(u + "\n")
+
+        stream = choose_working_raw_stream(channel_name, candidates)
+        if stream:
+            content = replace_channel(content, cfg["aliases"], stream)
+        else:
+            print(f"{channel_name}: mantengo URL attuale", flush=True)
+
+    return content
 
 
 def replace_channel(content: str, aliases: list[str], url: str) -> str:
@@ -865,6 +989,8 @@ def main() -> int:
 
     shutil.copy2(PLAYLIST_FILE, BACKUP_FILE)
     content = PLAYLIST_FILE.read_text(encoding="utf-8", errors="ignore")
+
+    content = update_raw_auto_channels(content)
 
     context = None
     page = None
