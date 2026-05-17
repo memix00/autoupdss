@@ -84,13 +84,20 @@ RAW_AUTO_CHANNELS = {
     },
     "Telecinco": {
         "aliases": ["Telecinco", "Tele 5", "T5"],
-        "match_names": ["telecinco", "telecinco.es", "tele 5", "t5"],
+        # SOLO stream spagnoli reali
+        "match_names": ['tvg-id="telecinco.es"'],
     },
 }
 
 RAW_BLOCKED_URL_PARTS = [
     ".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", "logo", "tvg-logo",
     "facebook", "twitter", "instagram", "youtube", "wikipedia", "wikimedia",
+]
+
+RAW_BLOCKED_CHANNEL_TOKENS = [
+    " japan", " japanese", " jp ", "[jp]", "|jp|",
+    " argentina", " arg ", " ar ", "[ar]", "|ar|",
+    " anime", " tokyo", " asia", " asiatic",
 ]
 
 
@@ -142,6 +149,11 @@ def extract_channel_candidates_from_raw(raw_text: str, match_names: list[str]) -
 
     for chunk in chunks:
         chunk_lower = chunk.lower()
+
+        # filtro anti canali stranieri/random
+        if any(tok in chunk_lower for tok in RAW_BLOCKED_CHANNEL_TOKENS):
+            continue
+
         if not any(name.lower() in chunk_lower for name in match_names):
             continue
 
