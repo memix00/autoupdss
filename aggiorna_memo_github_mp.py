@@ -80,7 +80,8 @@ RAW_AUTO_SOURCE_URL = "https://raw.githubusercontent.com/picturekey/mi-lista-ipt
 RAW_AUTO_CHANNELS = {
     "Cuatro": {
         "aliases": ["Cuatro"],
-        "match_names": ["cuatro", "cuatro.es"],
+        # SOLO stream spagnoli reali
+        "match_names": ['tvg-id="cuatro.es"'],
     },
     "Telecinco": {
         "aliases": ["Telecinco", "Tele 5", "T5"],
@@ -98,6 +99,8 @@ RAW_BLOCKED_CHANNEL_TOKENS = [
     " japan", " japanese", " jp ", "[jp]", "|jp|",
     " argentina", " arg ", " ar ", "[ar]", "|ar|",
     " anime", " tokyo", " asia", " asiatic",
+    " mexico", " méxico", " mx ", "[mx]", "|mx|",
+    " latam", " latino", " latina",
 ]
 
 
