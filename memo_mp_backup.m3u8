@@ -241,12 +241,8 @@ https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name="IT: Rai 4" group-title="IT - TV",IT: Rai 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
-http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/357769.m3u8
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/651.m3u8
 
-#EXTINF:-1 tvg-name="IT: Rai Premium" group-title="IT - TV",IT: Rai Premium
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/357763.m3u8
 
 #EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" group-title="Generalistas",Rai 5
 http://78.130.250.2:8023/play/a04o/index.m3u8
