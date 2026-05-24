@@ -421,14 +421,14 @@ https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-name="IT: Rai Sport " group-title="IT - Sport",IT: Rai Sport
+#EXTINF:-1 tvg-name="Rai Sport " group-title="IT - Sport",IT: Rai Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/357760.m3u8
 
 
 
-#EXTINF:-1 tvg-name="ES: M. Deportes" group-title="ES - TV",ES: M. Deportes 
+#EXTINF:-1 tvg-name="M. Deportes" group-title="ES - TV",ES: M. Deportes 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356907.m3u8
@@ -463,36 +463,24 @@ http://cdn4k.us:80/live/Adrianobrito16/910989645a/167477.m3u8
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/167476.m3u8
 
+#EXTINF:-1 tvg-name="SporTV HD" tvg-logo="http://cdn-user.com/logos/sportv.png" group-title="PT/BR - Sport",SporTV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cdn4k.us:80/live/Adrianobrito16/910989645a/34875.m3u8
+
+
 
 #EXTINF:-1 tvg-name="SporTV 2 FHD" tvg-logo="http://cdn-user.com/logos/sportv2.png" group-title="PT/BR - Sport",SporTV 2 FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/6942.m3u8
 
-#EXTINF:-1 tvg-name="SporTV 2 FHD²" tvg-logo="http://cdn-user.com/logos/sportv2.png" group-title="PT/BR - Sport",SporTV 2 FHD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/16819.m3u8
-
-#EXTINF:-1 tvg-name="Sportv 2 H265/HEVC [SD]" tvg-logo="http://cdn-user.com/logos/sportv2.png" group-title="PT/BR - Sport",Sportv 2 H265/HEVC [SD]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/34837.m3u8
 
 #EXTINF:-1 tvg-name="SporTV 2 HD" tvg-logo="http://cdn-user.com/logos/sportv2.png" group-title="PT/BR - Sport",SporTV 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/6480.m3u8
 
-#EXTINF:-1 tvg-name="SporTV 2 HD²" tvg-logo="http://cdn-user.com/logos/sportv2.png" group-title="PT/BR - Sport",SporTV 2 HD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/6872.m3u8
-
-#EXTINF:-1 tvg-name="SporTV 2 SD²" tvg-logo="http://cdn-user.com/logos/sportv2.png" group-title="PT/BR - Sport",SporTV 2 SD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/10692.m3u8
 
 #EXTINF:-1 tvg-name="SporTV 3 FHD" tvg-logo="http://cdn-user.com/logos/sportv3.png" group-title="PT/BR - Sport",SporTV 3 FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -500,29 +488,13 @@ http://cdn4k.us:80/live/Adrianobrito16/910989645a/10692.m3u8
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/10371.m3u8
 
 #EXTINF:-1 tvg-name="SporTV 3 FHD²" tvg-logo="http://cdn-user.com/logos/sportv3.png" group-title="PT/BR - Sport",SporTV 3 FHD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/6916.m3u8
 
-#EXTINF:-1 tvg-name="Sportv 3 H265/HEVC [SD]" tvg-logo="http://cdn-user.com/logos/sportv3.png" group-title="PT/BR - Sport",Sportv 3 H265/HEVC [SD]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/34836.m3u8
 
 #EXTINF:-1 tvg-name="SporTV 3 HD" tvg-logo="http://cdn-user.com/logos/sportv3.png" group-title="PT/BR - Sport",SporTV 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/6478.m3u8
 
-#EXTINF:-1 tvg-name="SporTV 3 HD²" tvg-logo="http://cdn-user.com/logos/sportv3.png" group-title="PT/BR - Sport",SporTV 3 HD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/10690.m3u8
-
-#EXTINF:-1 tvg-name="SporTV 3 SD²" tvg-logo="http://cdn-user.com/logos/sportv3.png" group-title="PT/BR - Sport",SporTV 3 SD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/10691.m3u8
 
 #EXTINF:-1 tvg-name="SporTV 4 FHD" tvg-logo="http://cdn-user.com/logos/SPORTV4.png" group-title="PT/BR - Sport",SporTV 4 FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -539,36 +511,12 @@ http://cdn4k.us:80/live/Adrianobrito16/910989645a/253831.m3u8
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/6928.m3u8
 
-#EXTINF:-1 tvg-name="SporTV FHD²" tvg-logo="http://cdn-user.com/logos/sportv.png" group-title="PT/BR - Sport",SporTV FHD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/16821.m3u8
 
-#EXTINF:-1 tvg-name="Sportv H265/HEVC [SD]" tvg-logo="http://70.ms/Ug" group-title="PT/BR - Sport",Sportv H265/HEVC [SD]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/34835.m3u8
-
-#EXTINF:-1 tvg-name="SporTV HD" tvg-logo="http://cdn-user.com/logos/sportv.png" group-title="PT/BR - Sport",SporTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/34875.m3u8
-
-#EXTINF:-1 tvg-name="SporTV HD²" tvg-logo="http://cdn-user.com/logos/sportv.png" group-title="PT/BR - Sport",SporTV HD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/6882.m3u8
-
-#EXTINF:-1 tvg-name="SporTV SD²" tvg-logo="http://cdn-user.com/logos/sportv.png" group-title="PT/BR - Sport",SporTV SD²
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-reconnect=true
-http://cdn4k.us:80/live/Adrianobrito16/910989645a/10693.m3u8
 
 #EXTINF:-1 tvg-name="ESPN " tvg-logo="http://cdn-user.com/logos/espn.png" group-title="EN - Sport",ESPN 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/34879.m3u8
-
 
 #EXTINF:-1 tvg-name="ESPN UHD 4K" tvg-logo="http://cdn-user.com/logos/espn.png" group-title="EN - Sport",ESPN UHD 4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
