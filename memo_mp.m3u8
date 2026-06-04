@@ -144,6 +144,10 @@ http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/651.m3u8
 #EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" group-title="Generalistas",Rai 5
 http://78.130.250.2:8023/play/a04o/index.m3u8
 
+#EXTINF:-1 tvg-name="Rete 4 HD" tvg-logo="http://iptvbeka.net/italy/rete4hd.png" group-title="IT - TV",Rete 4 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/2918.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png" group-title="Int. Europa" tvg-name="La7 Italia",La7 
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
@@ -351,6 +355,16 @@ http://cdn4k.us:80/live/Adrianobrito16/910989645a/6932.m3u8
 #EXTVLCOPT:http-reconnect=true
 http://cdn4k.us:80/live/Adrianobrito16/910989645a/6587.m3u8
 
+#EXTINF:-1 tvg-name="ESPN 2 FHD²" tvg-logo="http://cdn-user.com/logos/espn2.png" group-title="EN - Sport",ESPN 2 FHD²
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cdn4k.us:80/live/Adrianobrito16/910989645a/26161.m3u8
+
+#EXTINF:-1 tvg-name="ESPN 2 H265/HEVC [SD]" tvg-logo="http://cdn-user.com/logos/espn2.png" group-title="EN - Sport",ESPN 2 H265/HEVC [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cdn4k.us:80/live/Adrianobrito16/910989645a/34881.m3u8
+
 
 #EXTINF:-1 tvg-name="ESPN 3 FHD" tvg-logo="http://cdn-user.com/logos/espn.png" group-title="EN - Sport",ESPN 3 FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -421,3 +435,8 @@ http://bocian.io:8080/live/marek58/Mjc3ODg5MDQ4/105527.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://bocian.io:8080/live/marek58/Mjc3ODg5MDQ4/105528.m3u8
+
+#EXTINF:-1 tvg-name="Eurosport" group-title="IT - TV",Eurosport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/2587.m3u8
