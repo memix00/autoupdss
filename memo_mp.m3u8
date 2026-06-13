@@ -440,3 +440,181 @@ http://bocian.io:8080/live/marek58/Mjc3ODg5MDQ4/105528.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-reconnect=true
 http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/2587.m3u8
+
+
+
+#EXTINF:-1 tvg-name="IT: Rai 1 [SD]" tvg-logo="http://iptvbeka.net/italy/rai1.png" group-title="IT - TV",IT: Rai 1 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/648.m3u8
+
+#EXTINF:-1 tvg-name="IT: Rai 2 [SD]" tvg-logo="http://iptvbeka.net/italy/rai2.png" group-title="IT - TV",IT: Rai 2 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/649.m3u8
+
+#EXTINF:-1 tvg-name="IT: Rai 3 [SD]" tvg-logo="http://iptvbeka.net/italy/rai3.png" group-title="IT - TV",IT: Rai 3 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/650.m3u8
+
+#EXTINF:-1 tvg-name="IT: Rai 4 [SD]" tvg-logo="http://iptvbeka.net/italy/rai4.png" group-title="IT - TV",IT: Rai 4 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/651.m3u8
+
+#EXTINF:-1 tvg-name="IT: Rai 5 [SD]" tvg-logo="http://iptvbeka.net/italy/rai5.png" group-title="IT - TV",IT: Rai 5 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/652.m3u8
+
+
+#EXTINF:-1 tvg-name="IT: Rai Premium [SD]" group-title="IT - TV",IT: Rai Premium [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/357763.m3u8
+
+#EXTINF:-1 tvg-name="IT: Sky Cinema Action HD" tvg-logo="http://iptvbeka.net/italy/skyprimafila.png" group-title="IT - TV",IT: Sky Cinema Action HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://cm1.portaltv.info:777/live/5R0Tqhz7bC/8biAnmNHif/1355.m3u8
+
+
+
+
+#EXTINF:-1 tvg-name="Sky Sports F1 [SD]" tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/sky-sports-f1-uk.png" group-title="IT - Sport",Sky Sports F1 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://lunar.pm:8080/live/Stephanie/time44/100769.m3u8
+
+#EXTINF:-1 tvg-name="Sky Sports Football [SD]" tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/sky-sports-football-uk.png" group-title="IT - Sport",Sky Sports Football [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://lunar.pm:8080/live/Stephanie/time44/100767.m3u8
+
+#EXTINF:-1 tvg-name="Sky Sports News [SD]" tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/sky-sports-news-uk.png" group-title="IT - Sport",Sky Sports News [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://lunar.pm:8080/live/Stephanie/time44/100772.m3u8
+
+#EXTINF:-1 tvg-name="UK: Sky Sports Action [SD]" group-title="IT - Sport",UK: Sky Sports Action [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358850.m3u8
+
+#EXTINF:-1 tvg-name="ES: #0 [SD]" group-title="ES - TV",ES: #0 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356706.m3u8
+
+
+
+#EXTINF:-1 tvg-name="ES: BOM CINE [SD]" group-title="ES - TV",ES: BOM CINE [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356806.m3u8
+
+
+#EXTINF:-1 tvg-name="ES: Dark [SD]" group-title="ES - TV",ES: Dark [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356730.m3u8
+
+
+
+
+#EXTINF:-1 tvg-name="ES: Hollywood [SD]" group-title="ES - TV",ES: Hollywood [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356714.m3u8
+
+#EXTINF:-1 tvg-name="ES: Investigation Discovery [SD]" group-title="ES - TV",ES: Investigation Discovery [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356981.m3u8
+
+
+
+#EXTINF:-1 tvg-name="ES: M. Deportes 1 [SD]" group-title="ES - TV",ES: M. Deportes 1 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356907.m3u8
+
+
+#EXTINF:-1 tvg-name="ES: NATIONAL GEOGRAPHIC [SD]" group-title="ES - TV",ES: NATIONAL GEOGRAPHIC [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356731.m3u8
+
+#EXTINF:-1 tvg-name="ES: Nature Time [SD]" group-title="ES - TV",ES: Nature Time [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/357002.m3u8
+
+
+
+#EXTINF:-1 tvg-name="ES: TNT [SD]" group-title="ES - TV",ES: TNT [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356717.m3u8
+
+
+
+#EXTINF:-1 tvg-name="ES: Warner TV [SD]" group-title="ES - TV",ES: Warner TV [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/357037.m3u8
+
+#EXTINF:-1 tvg-name="ES: XTRM [SD]" group-title="ES - TV",ES: XTRM [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356906.m3u8
+
+#EXTINF:-1 tvg-name="ES: DAZN LaLiga 2 [SD]" group-title="ES - Sport",ES: DAZN LaLiga 2 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356959.m3u8
+
+#EXTINF:-1 tvg-name="ES: EUROSPORT 1 [SD]" group-title="ES - Sport",ES: EUROSPORT 1 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/356840.m3u8
+
+
+#EXTINF:-1 tvg-name="PL: Eleven Sports 4 ғʜᴅ [SD]" group-title="PT/BR - Sport",PL: Eleven Sports 4 ғʜᴅ [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/359605.m3u8
+
+#EXTINF:-1 tvg-name="PT: ELEVEN SPORTS 3 [SD]" group-title="PT/BR - Sport",PT: ELEVEN SPORTS 3 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358172.m3u8
+
+#EXTINF:-1 tvg-name="PT: ELEVEN SPORTS 4 [SD]" group-title="PT/BR - Sport",PT: ELEVEN SPORTS 4 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358173.m3u8
+
+#EXTINF:-1 tvg-name="PT: ELEVEN SPORTS 5 [SD]" group-title="PT/BR - Sport",PT: ELEVEN SPORTS 5 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358174.m3u8
+
+#EXTINF:-1 tvg-name="PT: Sport TV [SD]" group-title="PT/BR - Sport",PT: Sport TV [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358168.m3u8
+
+#EXTINF:-1 tvg-name="PT: Sport TV 2 [SD]" group-title="PT/BR - Sport",PT: Sport TV 2 [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358162.m3u8
+
+#EXTINF:-1 tvg-name="PT: Sport TV NBA [SD]" group-title="PT/BR - Sport",PT: Sport TV NBA [SD]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-reconnect=true
+http://izle.superhd.eu:80/live/Necati15Kaynar/pt6my76b41/358167.m3u8
+
+
+
