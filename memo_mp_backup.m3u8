@@ -9,7 +9,7 @@ https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live.atresmedia.com/ca118fc7bdcfbe1a5954e75aa9ded2882b8dd6ab_ES_1783326127_1783354867/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/6ec6d59db449ac908a147aaed2923e8223bfb974_ES_1783354918_1783383658/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General",Cuatro
 https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
@@ -18,13 +18,13 @@ https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
 http://92.176.119.180:2095/play/a1fq
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live.atresmedia.com/de481dba2cc227ad86db49c62077d75a893a873f_ES_1783326117_1783354857/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/fbedc55ece7db1cfa8aa1af0ec98898330ded4f1_ES_1783354909_1783383649/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live.atresmedia.com/8c5d41a9e73692bcbfa3c54043077a44fd2251d7_ES_1783326136_1783354876/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/754e4bd66c910738c56e23c49d0005c2db2218bb_ES_1783354928_1783383668/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live.atresmedia.com/d26fcc44355413e4505ea2312ff0cd739087787d_ES_1783326146_1783354886/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/8f0ffa2874967f96506dada81f440e45b994663f_ES_1783354937_1783383677/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
 https://atres-live.atresmedia.com/7ddb7edf143884c6d9298f4cd7125c8253a171bf_ES_1780647720_1780676460/hlsts/live/mega_usp/mega_usp.isml/mega_usp-audio_spa=128000-445161913.ts?hls_minimum_fragment_length=100/25
@@ -208,10 +208,10 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://d27wu3gni4gipu.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/caf94a3c-5852-48c4-9699-3d5a5f513353/2.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(qRI_S75Rh3cA4OZVnm_a_VPV7jwmalR6GT28_jRWhevgDCVYuF4TTHs4OeF9fnCF-lBol0hifFWz-lVAYiINPIS1oeFHlL_koOzLWU55QYBsuqiSpAdVhGQ1aF1qPi07)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(rlusYCB0g67CBOhiKgnXcXUAoTltPYJRgpxMDtdOLA_vlF3rw3riYczMQ1gm42ZNfa_4TfVavnD1-T_m0ofid72PGB4KBFlOklX_koUzggC7_e6XA6oiyIYIXFQ1s8je)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(4RNjMErpOGl4vDWr7tTdhZsMSPFXY3TmuO-OlhHcBQhcww1_FM9shqZ9FA_oj3pl0Wwju3uoNjumJTt4GEJHFnMoHvibAKJI36K4OoA4lauK4k6PlQeSkH4hEdgpY1Ri)/cloud/3/x893du6/d/live-240.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(zyHPAzqA4NtblqxNG8ooJRarChcSirv4kdSRrKIB9vJu1IabBNpZwLM8G_Xa3smKM_CvBhgY8xsPRobAYcwXqShwKb-a35n4azLCpylq5R1TaKpSKKbvPj2y1sYWslnv)/cloud/3/x893du6/d/live-240.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
