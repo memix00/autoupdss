@@ -9,7 +9,7 @@ https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live.atresmedia.com/cfe44409d6e6595992697d0e00e1c0688a9b50fb_ES_1784305310_1784334050/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/1b400734e523d41dd39521670fb7c2e00c69a6e9_ES_1784362912_1784391652/hlsts/live/antena3_usp/antena3_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General",Cuatro
 https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
@@ -18,16 +18,16 @@ https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
 http://92.176.119.180:2095/play/a1fq
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live.atresmedia.com/7e5c560c57e47873ded0b0c79fa9db944b7b865f_ES_1784305301_1784334041/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/fc9b0bd98bf31ab0cd39ab9d8568bc574bb656b2_ES_1784362902_1784391642/hlsts/live/lasexta_usp/lasexta_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live.atresmedia.com/92bb3572041c402e8f31882d6a32fa1c635e4bec_ES_1784305319_1784334059/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/140cfcfb3833ddf5aac7d7842796d1cdb5f82da0_ES_1784362921_1784391661/hlsts/live/neox_usp/neox_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live.atresmedia.com/55269633e997e03900a88a9104b6bdebf954a8c1_ES_1784305328_1784334068/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
+https://atres-live.atresmedia.com/81a22f33144a0d7a4bad6c44e0bc8d5bde2423fa_ES_1784362931_1784391671/hlsts/live/mega_usp/mega_usp.isml/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
-https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODQzMDUyNzgsIm5iZiI6MTc4NDMwNTI3OCwiZXhwIjoxNzg0MzA1NjM4LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDAuODguMjcifQ.PQEcdIsqp8BOxyXo1NJKn1d3_NaDFXF5bQRyASUJXes/es/EHD_267922B/dash/DMAX_SPAIN_AVOD_EHD_267922B.mpd
+https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODQzNjI4ODEsIm5iZiI6MTc4NDM2Mjg4MSwiZXhwIjoxNzg0MzYzMjQxLCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDAuODguMjcifQ.-Kgb7hLl0euW4k762mMMsJXEwiXqqV0jbrSOTQ3tGkw/es/EHD_267922B/dash/DMAX_SPAIN_AVOD_EHD_267922B.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
@@ -208,10 +208,10 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://d27wu3gni4gipu.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/caf94a3c-5852-48c4-9699-3d5a5f513353/2.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(DoUChsllbJeq-IypMTF07wGD0wyQy4YZ9STM2T8D2jS9gB5uG_zQkTzBVEKhi6hGeHi2iInA4KcbRY5l3zsN9YahZkyuOEdGyKk_78IFpuORiFeOrG0Ua0xn97b1c6nU)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(puZJKu28QlL5aKAb8xKGiDnWpBVaECZFrmk1t7iQ7CEtg6dlSZt8g6GWWRXUSgo32qR6ktdc-6rlr5Q7yStdT4DxDAeq06PGQLpt3qnVOv9SCwKkQKRbwzyVwsIIqIZI)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(QOtf9UUZtRRcdDv6izMBvs5Zt2ro4c8PczQZ7LlEMBhMJvGSVuDw_x1C5cZG-_lzgWwtE4A2PTpHlbCCAEyyEvFq9ihMxhxIgJ8gZedXlj4x8AGGdNPzz0gPLJiSSOw0)/cloud/3/x893du6/d/live-240.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(t93seGZshl4xJZnk1mjMq4Zo3dyI5gWJlFqyIK5yHvYqWzRu6kW9cHsfIg0e0kHv22ZODP7WGwELIsj3eCzbusN7aoyYUKQ2ZDedQOjSt_VYc9ttEgZ2Vi7gw2a8iCyR)/cloud/3/x893du6/d/live-240.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
