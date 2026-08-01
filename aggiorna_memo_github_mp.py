@@ -32,32 +32,25 @@ LIVE_CHANNELS = {
         "page": "https://www.atresplayer.com/directos/lasexta",
         "tokens": ["atres-live", "lasexta_usp", ".m3u8", ".isml", "chunklist", "manifest"],
         "aliases": ["La Sexta", "laSexta"],
-        "wait_ms": 3000,
+        "wait_ms": 45000,
     },
     "Antena 3": {
         "page": "https://www.atresplayer.com/directos/antena3",
         "tokens": ["atres-live", "antena3_usp", ".m3u8", ".isml", "chunklist", "manifest"],
         "aliases": ["Antena 3", "A3", "Antena3"],
-        "wait_ms": 3000,
+        "wait_ms": 45000,
     },
     "Neox": {
         "page": "https://www.atresplayer.com/directos/neox",
         "tokens": ["atres-live", "neox_usp", ".m3u8", ".isml", "chunklist", "manifest"],
         "aliases": ["Neox"],
-        "wait_ms": 3000,
+        "wait_ms": 45000,
     },
     "Mega": {
         "page": "https://www.atresplayer.com/directos/mega",
         "tokens": ["atres-live", "mega_usp", ".m3u8", ".isml", "chunklist", "manifest"],
         "aliases": ["Mega"],
-        "wait_ms": 3000,
-    },
-    "DMAX": {
-        "page": "https://dmax.marca.com/en-directo",
-        "tokens": [".m3u8", ".mpd", "playlist", "manifest", "dmax", "disco", "linear", "live"],
-        "aliases": ["DMAX", "DMax"],
-        "wait_ms": 12000,
-        "frame_autoplay": True,
+        "wait_ms": 45000,
     },
     "Sardegna 1": {
         "page": "https://www.sardegna1.it/live/diretta-live/",
@@ -221,10 +214,6 @@ def replace_channel(content: str, aliases: list[str], url: str) -> str:
                 continue
             if name.lower() not in line.lower():
                 continue
-            if name.lower() in ("dmax", "dmax es", "dmax españa", "dmax espana"):
-                up = line.upper()
-                if "DMAX IT" in up or "DMAX ITA" in up or "DMAX ITALIA" in up:
-                    continue
             lines[i + 1] = url
             print("Aggiornato:", name, flush=True)
             return "\n".join(lines)
@@ -560,6 +549,100 @@ def extract_live_stream(page, channel_name: str, page_url: str, tokens: list[str
     if not preferred:
         return ""
 
+    atresmedia_channels = {"La Sexta", "Antena 3", "Neox", "Mega"}
+
+    if channel_name in atresmedia_channels:
+        # Durante i primi secondi Atresplayer può caricare il manifest pubblicitario.
+        # Dopo 45 secondi scegliamo gli URL più recenti, che normalmente appartengono
+        # al flusso lineare del canale, invece di mantenere il primo manifest trovato.
+        blocked_ad_tokens = [
+            "doubleclick", "googleads", "googlesyndication", "imasdk",
+            "adservice", "advert", "preroll", "midroll", "freewheel",
+            "fwmrm", "/ads/", "/ad/", "commercial", "promo"
+        ]
+
+        non_ad_candidates = [
+            u for u in preferred
+            if not any(token in u.lower() for token in blocked_ad_tokens)
+        ]
+
+        if not non_ad_candidates:
+            non_ad_candidates = preferred
+
+        # Mantiene l'ordine cronologico inverso: prima gli URL comparsi per ultimi.
+        recent_candidates = list(reversed(non_ad_candidates))
+
+        # Atresplayer genera anche playlist solo audio. Per A3 e La Sexta
+        # preferiamo esplicitamente la variante che contiene audio + video.
+        av_variants = [
+            u for u in recent_candidates
+            if ".m3u8" in u.lower()
+            and "audio_" in u.lower()
+            and "-video=" in u.lower()
+        ]
+
+        # Se sono disponibili più qualità, prova prima quella con bitrate video maggiore.
+        def video_bitrate(url: str) -> int:
+            match = re.search(r"-video=(\d+)", url.lower())
+            return int(match.group(1)) if match else 0
+
+        av_variants = sorted(
+            av_variants,
+            key=video_bitrate,
+            reverse=True,
+        )
+
+        for candidate in av_variants:
+            if validate_stream_url(candidate):
+                print("Atresmedia: variante audio+video validata:", candidate, flush=True)
+                return candidate
+
+        # Non usare mai una playlist esclusivamente audio.
+        no_audio_only = [
+            u for u in recent_candidates
+            if not (
+                "audio_" in u.lower()
+                and "-video=" not in u.lower()
+                and "master.m3u8" not in u.lower()
+            )
+        ]
+
+        # Come secondo tentativo usa il master del canale, privilegiando quello pulito.
+        master_candidates = [
+            u for u in no_audio_only
+            if "master.m3u8" in u.lower()
+        ]
+        master_candidates.sort(
+            key=lambda u: (
+                "response=200" not in u.lower(),
+                len(u),
+            )
+        )
+
+        for candidate in master_candidates:
+            if validate_stream_url(candidate):
+                print("Atresmedia: master validato:", candidate, flush=True)
+                return candidate
+
+        # Ultimo fallback: manifest specifico del canale, ma mai audio-only.
+        channel_specific = [
+            u for u in no_audio_only
+            if any(token.lower() in u.lower() for token in tokens if token != ".m3u8")
+        ]
+        remaining = [u for u in no_audio_only if u not in channel_specific]
+        ordered_candidates = channel_specific + remaining
+
+        for candidate in ordered_candidates[:20]:
+            if validate_stream_url(candidate):
+                print("Atresmedia: flusso finale validato:", candidate, flush=True)
+                return candidate
+
+        if ordered_candidates:
+            print("Atresmedia: validazione HTTP non conclusiva, uso il miglior flusso non audio-only", flush=True)
+            return ordered_candidates[0]
+
+        return ""
+
     ranked = sorted(preferred, key=lambda x: score_url(x, tokens), reverse=True)
     fallback = ranked[0]
 
@@ -570,153 +653,6 @@ def extract_live_stream(page, channel_name: str, page_url: str, tokens: list[str
 
     print("Validazione HTTP non conclusiva, uso miglior candidato trovato", flush=True)
     return fallback
-
-
-def extract_dmax_stream(page) -> str:
-    found_urls = []
-
-    def add_url(url: str):
-        if url and url not in found_urls:
-            found_urls.append(url)
-
-    def is_dmax_candidate(url: str) -> bool:
-        u = url.lower()
-        blocked = [
-            "fwmrm.net", "freewheel", "/ad/", "adaptv", "doubleclick",
-            "googlesyndication", "googleads", "imasdk", "ads.", "adservice",
-            "manifest.webmanifest", "my-ip",
-        ]
-        if any(x in u for x in blocked):
-            return False
-        if u.endswith(".js") or u.endswith(".css") or u.endswith(".json"):
-            return False
-        if ".m3u8" in u or ".mpd" in u:
-            return True
-        if any(x in u for x in ["dmax", "disco", "discovery", "eu1-prod", "akamai", "linear", "live", "playlist", "manifest"]):
-            return True
-        return False
-
-    def dmax_score(url: str) -> int:
-        u = url.lower()
-        score = 0
-        if ".m3u8" in u:
-            score += 10
-        if ".mpd" in u:
-            score += 8
-        if "master" in u:
-            score += 4
-        if "playlist" in u:
-            score += 3
-        if "manifest.mpd" in u:
-            score += 3
-        if "linear" in u:
-            score += 4
-        if "live" in u:
-            score += 4
-        if "dmax" in u:
-            score += 3
-        if "disco" in u or "discovery" in u:
-            score += 3
-        if "akamai" in u:
-            score += 2
-        if "fwmrm.net" in u or "freewheel" in u or "/ad/" in u:
-            score -= 100
-        if "vod" in u:
-            score -= 8
-        if ".jpg" in u or ".png" in u or "image" in u or "thumb" in u:
-            score -= 20
-        if ".js" in u or ".css" in u or ".json" in u:
-            score -= 20
-        return score
-
-    def ranked_candidates():
-        preferred = [u for u in found_urls if is_dmax_candidate(u)]
-        return sorted(preferred, key=dmax_score, reverse=True)
-
-    def pick_valid_candidate():
-        ranked = ranked_candidates()
-        real_streams = [u for u in ranked if ".m3u8" in u.lower() or ".mpd" in u.lower()]
-        for candidate in real_streams[:15]:
-            if validate_stream_url(candidate):
-                print("DMAX validato:", candidate, flush=True)
-                return candidate
-        if real_streams:
-            print("DMAX fallback stream:", real_streams[0], flush=True)
-            return real_streams[0]
-        return ""
-
-    def on_request(request):
-        if is_dmax_candidate(request.url):
-            add_url(request.url)
-
-    def on_response(response):
-        if is_dmax_candidate(response.url):
-            add_url(response.url)
-
-    page.on("request", on_request)
-    page.on("response", on_response)
-
-    try:
-        prepare_page(page)
-        print("\nApro pagina: DMAX", flush=True)
-        page.goto("https://dmax.marca.com/en-directo", wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(3500)
-        accept_popups(page)
-        hard_mute_page(page)
-
-        started = try_autoplay(page)
-        autoplay_frames(page)
-        hard_mute_page(page)
-
-        if started:
-            print("DMAX autoplay iniziale eseguito", flush=True)
-        else:
-            print("DMAX autoplay non trovato al primo colpo", flush=True)
-
-        force_page_reload(page, "DMAX", wait_ms=4500)
-        try_autoplay(page)
-        autoplay_frames(page)
-        hard_mute_page(page)
-
-        for i in range(40):
-            page.wait_for_timeout(1000)
-            hard_mute_page(page)
-
-            best = pick_valid_candidate()
-            if best:
-                return best
-
-            if i in (8, 18, 28):
-                try:
-                    print(f"DMAX retry autoplay #{i}", flush=True)
-                    try_autoplay(page)
-                    autoplay_frames(page)
-                    hard_mute_page(page)
-                except Exception:
-                    pass
-
-            if i == 12 and not pick_valid_candidate():
-                force_page_reload(page, "DMAX secondo tentativo", wait_ms=5000)
-                try_autoplay(page)
-                autoplay_frames(page)
-                hard_mute_page(page)
-
-    finally:
-        try:
-            page.remove_listener("request", on_request)
-        except Exception:
-            pass
-        try:
-            page.remove_listener("response", on_response)
-        except Exception:
-            pass
-
-    with DEBUG_FILE.open("a", encoding="utf-8") as f:
-        f.write("\n===== DMAX =====\n")
-        for u in found_urls:
-            f.write(u + "\n")
-
-    return pick_valid_candidate()
 
 
 def extract_sardegna1_stream(page) -> str:
@@ -1005,7 +941,8 @@ def main() -> int:
     shutil.copy2(PLAYLIST_FILE, BACKUP_FILE)
     content = PLAYLIST_FILE.read_text(encoding="utf-8", errors="ignore")
 
-    content = update_raw_auto_channels(content)
+    # Cuatro/Telecinco RAW update disabilitato
+    # content = update_raw_auto_channels(content)
 
     context = None
     page = None
@@ -1017,7 +954,7 @@ def main() -> int:
         page = get_single_page(context)
 
         for channel_name, cfg in LIVE_CHANNELS.items():
-            if channel_name in ("Sardegna 1", "DMAX"):
+            if channel_name == "Sardegna 1":
                 continue
 
             print("\n======", channel_name, "======", flush=True)
@@ -1035,25 +972,6 @@ def main() -> int:
                 content = replace_channel(content, cfg["aliases"], stream)
             else:
                 print("stream non trovato", flush=True)
-
-        print("\n====== DMAX ======", flush=True)
-        cfg = LIVE_CHANNELS["DMAX"]
-
-        dstream = extract_live_stream(
-            page,
-            "DMAX",
-            cfg["page"],
-            cfg["tokens"],
-            6000,
-            True
-        )
-
-        if dstream:
-            print("Trovato stream:", flush=True)
-            print(dstream, flush=True)
-            content = replace_channel(content, cfg["aliases"], dstream)
-        else:
-            print("stream non trovato", flush=True)
 
         print("\n====== Sardegna 1 ======", flush=True)
         sstream = extract_sardegna1_stream(page)
