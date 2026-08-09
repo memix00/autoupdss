@@ -2,32 +2,55 @@
 #EXTM3U
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
 
-#EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/2008842210414915584/zIp_go25_200x200.jpg" group-title="Generalistas" tvg-name="La 1",La 1
-https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 
-#EXTINF:-1 tvg-id="La2.TV" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqgHWySi5xprs1VFCNCX0IKNT8yXBLZC43JMoB8j0JUto=s200" group-title="Generalistas" tvg-name="La 2",La 2
-https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
+#EXTINF:-1 tvg-id="La1.es" tvg-name="La 1" tvg-country="ES" group-title="TDT España",La 1
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la1.mpd
 
-#EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live-ssai.atresmedia.com/70038f2d69eb9db5509024ded9e726d81e4fb679_ES_1785498294_1785527034/hlsts/live/antena3_usp/antena3_usp.isml/antena3_usp-audio_spa=128000-video=1440000-446374568.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec30e9acb1d721734d&bpkio_sessionid=10b0a14a182-ed6fc129-8413-464a-a708-a29fba3d224d
+#EXTINF:-1 tvg-id="La2.es" tvg-name="La 2" tvg-country="ES" group-title="TDT España",La 2
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la2.mpd
 
-#EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General",Cuatro
-https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
+#EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-country="ES" group-title="TDT España",Antena 3
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/a3.mpd
 
-#EXTINF:-1 tvg-id="Telecinco.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telecinco_2024_Logo.svg" group-title="General",Telecinco
-http://92.176.119.180:2095/play/a1fq
+#EXTINF:-1 tvg-id="Cuatro.es" tvg-name="Cuatro" tvg-country="ES" group-title="TDT España",Cuatro
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/cuatro.mpd
 
-#EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live-ssai.atresmedia.com/ba60b5d25a8f4b49ef36d35d1f15bb1c69f0e3f3_ES_1785498242_1785526982/hlsts/live/lasexta_usp/lasexta_usp.isml/lasexta_usp-audio_spa=128000-video=1440000-446374554.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaeca3e50423442f2dca&bpkio_sessionid=10b0b42d161-ac415604-56a9-48c3-9ad8-54eb84fc2d0d
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="Telecinco" tvg-country="ES" group-title="TDT España",Telecinco
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/t5.mpd
 
-#EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live-ssai.atresmedia.com/e5641b3eaca4e70c5ed109a4eef8e1704b865418_ES_1785498345_1785527085/hlsts/live/neox_usp/neox_usp.isml/neox_usp-audio_spa=128000-video=1440000-446374580.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec02e416ff8bca5f5d&bpkio_sessionid=10e0f14b182-83a859ae-c7c1-4119-b2dd-0d58ae4082d6
+#EXTINF:-1 tvg-id="LaSexta.es" tvg-name="La Sexta" tvg-country="ES" group-title="TDT España",La Sexta
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la6.mpd
 
-#EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live-ssai.atresmedia.com/ec5d443d2a4aa16a5230dd7e2ecb9c092bdcadc4_ES_1785498397_1785527137/hlsts/live/mega_usp/mega_usp.isml/mega_usp-audio_spa=128000-video=1440000-446374593.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec38bd4a101aefa447&bpkio_sessionid=10b0b2b165-8218f886-2710-4292-a702-a5bd4ccf0bf2
 
-#EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
-https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODU0OTgzODksIm5iZiI6MTc4NTQ5ODM4OSwiZXhwIjoxNzg1NDk4NzQ5LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDUuMTQ5LjE2In0.rQhOF1-JNT_by3wJMxEYg3szX9R8jOKNOhHpNH7z0ME/es/EHD_575895B/dash/DMAX_SPAIN_AVOD_EHD_575895B.mpd
+#EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-country="ES" group-title="TDT España",Neox
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/neox.mpd
+
+#EXTINF:-1 tvg-id="Divinity.es" tvg-name="Divinity" tvg-country="ES" group-title="TDT España",Divinity
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/dvnty.mpd
+
+#EXTINF:-1 tvg-id="FactoriaDeFiccion.es" tvg-name="FDF" tvg-country="ES" group-title="TDT España",FDF
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/fdf.mpd
+
+#EXTINF:-1 tvg-id="Atreseries.es" tvg-name="Atreseries" tvg-country="ES" group-title="TDT España",Atreseries
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/a3s.mpd
+
+#EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-country="ES" group-title="TDT España",Mega
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/mega.mpd
+
+#EXTINF:-1 tvg-id="Energy.es" tvg-name="Energy" tvg-country="ES" group-title="TDT España",Energy
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/energy.mpd
+
+#EXTINF:-1 tvg-id="Nova.es" tvg-name="Nova" tvg-country="ES" group-title="TDT España",Nova
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/nova.mpd
+
+#EXTINF:-1 tvg-id="Teledeporte.es" tvg-name="Teledeporte" tvg-country="ES" group-title="TDT España",Teledeporte
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/tdp.mpd
+
+#EXTINF:-1 tvg-id="Canal24Horas.es" tvg-name="24 Horas" tvg-country="ES" group-title="TDT España",24 Horas
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/24h.mpd
+
+#EXTINF:-1 tvg-id="BeMad.es" tvg-name="Be Mad" tvg-country="ES" group-title="TDT España",Be Mad
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/bmad.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geographic FHD " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_NDjaAWe_Z_vEG0ZgVVibPEzZLe4jBEdwQ&s" group-title="⏩ESP | Documentales | M+⏪",Nat Geographic FHD
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/316483.ts
@@ -44,10 +67,6 @@ http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53481.ts
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/History2_Logo.svg/512px-History_Logo.svg.png" tvg-id="Historia" group-title="Documentales",Canal Historia 2
 http://somoseluno.blog:80//live/9C00D3CF50C0/D3CF50C09C00/53483.ts
-
-#EXTINF:-1 tvg-id="24Horas.TV" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Informativos" tvg-name="24h",24h
-https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8
-
 
 
 #EXTINF:-1 tvg-id="discoveryhdtheater.ar" tvg-name="DISCOVERY Theater HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQYYxVUjsyNJVICTbPvJ9vPqrV_WU_Dx53FDIoz3G8Pg&s=10" group-title=" ✅ CULTURA  ✅",DISCOVERY Theater HD
@@ -90,9 +109,6 @@ https://jmp2.uk/plu-628751bb7154a40007168843.m3u8
 
 #EXTINF:-1 tvg-id="",Crímenes Reales 
 https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TDP.TV" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="Deportivos" tvg-name="Teledeporte",Teledeporte
-https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="TV3CAT.es" tvg-name="TV3Cat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/TV3CAT.svg" group-title="España",TV3Cat
 https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
@@ -208,10 +224,10 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://d27wu3gni4gipu.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/caf94a3c-5852-48c4-9699-3d5a5f513353/2.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(3MC1IPaMR9gIzkQUDs_McltFjWv-7CseyF1XNNSe9VSZCOkqzCaw--JeY05iNcNrH8QkOkRc090gHc4XA2PV-tTJHOlzT68IyvnNZUVrqYvNKKVg1XTVZ_zHqph6UGIV)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(NOF2sh5m1tNzXoaGsK_9-CX510VUEdbcw8w_WioVF0Bz377uVntJMutJ5poH0RiYgwZkWbn5ZUrxQbOzHVLuKnPrPGJ7OPaa2sv8MLzPQtbRdv7txriTK-aPI9inlt7V)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(Ts198WgYTdw2_Eli07A2huWRLB0N06MSgRhu8ZiFUc8u29jyrrzCrsmdLKzkNLB9TNN-RqYlyJCcy2iZqt2JdcZEajKHgD542oqGSmVIMTGgde1JZacb5tPVDUKsR9o-)/cloud/3/x893du6/d/live-720.m3u8
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(YbLrPzFCPHuSMeaPk6sYMqlxo_Ag--9YYdzw4h5ZYVjY6ODUhH-sVugQnl9wr4mTNS1wmXcAAFio9lkkqKR6bRIZ-1n27nM6E4IAxPetIFyi1fNJzlmcgBQ2loTb5aA5)/cloud/3/x893du6/d/live-240.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
