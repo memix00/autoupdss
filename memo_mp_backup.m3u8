@@ -9,7 +9,7 @@ https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-id="Antena3.es" tvg-name="Antena 3" tvg-logo="https://static.iptv-epg.com/es/Antena3.es.png" group-title="España",Antena 3
-https://atres-live-ssai.atresmedia.com/5bf92690e4381ca4ce01e29b50cdd22cf334ae56_ES_1786756947_1786785687/hlsts/live/antena3_usp/antena3_usp.isml/antena3_usp-audio_spa=128000-video=1440000-446689231.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec30e9acb1d721734d&bpkio_sessionid=10c0b46b198-721181c9-ca9d-419e-b38e-a5c416ef6828
+https://atres-live-ssai.atresmedia.com/92d1c09a04002f93d66d45b4d8bc9d2dbb01d977_ES_1786843349_1786872089/hlsts/live/antena3_usp/antena3_usp.isml/antena3_usp-audio_spa=128000-video=1440000-446710831.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec30e9acb1d721734d&bpkio_sessionid=10a0a38d82-21b5d4e5-fc22-4012-b52e-09e8c50ecf65
 
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="General",Cuatro
 https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
@@ -18,13 +18,13 @@ https://adpnetworkhd-cmd.github.io/iptv/Cuatro.m3u8
 http://92.176.119.180:2095/play/a1fq
 
 #EXTINF:-1 tvg-id="lasexta.es" tvg-name="laSexta" tvg-logo="https://static.iptv-epg.com/es/LaSexta.es.png" group-title="España",laSexta
-https://atres-live-ssai.atresmedia.com/7e0636ff7f1f303d429d510231cfa1c0f0e548de_ES_1786756896_1786785636/hlsts/live/lasexta_usp/lasexta_usp.isml/lasexta_usp-audio_spa=128000-video=1440000-446689218.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaeca3e50423442f2dca&bpkio_sessionid=10c0e46d198-d0ebf79f-6979-4f9e-af57-5ac3304aa776
+https://atres-live-ssai.atresmedia.com/7377bce67b7b0b276d16328c1ca16788417a8b17_ES_1786843297_1786872037/hlsts/live/lasexta_usp/lasexta_usp.isml/lasexta_usp-audio_spa=128000-video=1440000-446710818.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaeca3e50423442f2dca&bpkio_sessionid=10a0d41a30-720dd1d0-c1e7-425e-81a8-eeff9de0bc84
 
 #EXTINF:-1 tvg-id="Neox.es" tvg-name="Neox" tvg-logo="https://static.iptv-epg.com/es/Neox.es.png" group-title="España",Neox
-https://atres-live-ssai.atresmedia.com/775a1706ce35c6162f50657e1b4aca9d28acbb06_ES_1786756998_1786785738/hlsts/live/neox_usp/neox_usp.isml/neox_usp-audio_spa=128000-video=1440000-446689244.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec02e416ff8bca5f5d&bpkio_sessionid=10b0b12d23-798cce5a-908e-43cd-a216-c86592ebc537
+https://atres-live-ssai.atresmedia.com/a03f8a9198cce63fadbb0e75a9471ae32c20c03e_ES_1786843400_1786872140/hlsts/live/neox_usp/neox_usp.isml/neox_usp-audio_spa=128000-video=1440000-446710844.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec02e416ff8bca5f5d&bpkio_sessionid=10e0e38b82-b26b0134-fb45-4322-a95b-52cbaa65989b
 
 #EXTINF:-1 tvg-id="Mega.es" tvg-name="Mega" tvg-logo="https://static.iptv-epg.com/es/Mega.es.png" group-title="España",Mega
-https://atres-live-ssai.atresmedia.com/06c609ef09e80332e1889eaca77fc19670da9570_ES_1786757050_1786785790/hlsts/live/mega_usp/mega_usp.isml/mega_usp-audio_spa=128000-video=1440000-446689257.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec38bd4a101aefa447&bpkio_sessionid=10a0f46e198-5babafb3-eb0d-48e7-af7b-6c34bbd775fb
+https://atres-live-ssai.atresmedia.com/15cfb425039a30b628cf04bfb578113aadc39fe8_ES_1786843451_1786872191/hlsts/live/mega_usp/mega_usp.isml/mega_usp-audio_spa=128000-video=1440000-446710856.ts?hls_minimum_fragment_length=100/25&bpkio_serviceid=898aef0932f6aaec38bd4a101aefa447&bpkio_sessionid=10b0b38e82-c133240c-3670-4603-b65d-38d3e15983c2
 
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="https://static.iptv-epg.com/es/DMAX.es.png" group-title="Documentales",DMAX
 https://streaming.aurora.enhanced.live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODU0OTgzODksIm5iZiI6MTc4NTQ5ODM4OSwiZXhwIjoxNzg1NDk4NzQ5LCJjb3VudHJ5Q29kZSI6ImVzIiwidWlwIjoiODMuNDUuMTQ5LjE2In0.rQhOF1-JNT_by3wJMxEYg3szX9R8jOKNOhHpNH7z0ME/es/EHD_575895B/dash/DMAX_SPAIN_AVOD_EHD_575895B.mpd
@@ -208,10 +208,10 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://d27wu3gni4gipu.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/caf94a3c-5852-48c4-9699-3d5a5f513353/2.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(TEC-iJDMlqmnJxOyg-CRDOAzlf1QSG6lA4r_f24dLRKs63OJBlBw6ADn9jlP215FS7za4X-Rb-efL-Uk2Fu7Kv-RR0eUN96bYPbVFmzNDsOmp4oTgh5ed3qPS0KAoVlw)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(_q23tOn9MatIJIjPrut3g_twiZI2D0GZfO5fcrUyWYMWWPwxQ3imBe52MjttGuJsPy0XBdyO-lbYxr6-8443wOtoHgFnGODk3-_135mFxe1tLoaUmU3s-8-Nb8ltc5-0)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(nPdxYlxVeFsyWFLOJLOlXBZrKtiAZbub6tT_Xs-rgEPKlmHG8tGd1FdwYNZnwu0Kq-LlYtp5Hvi9H3yxPxXQvDcBN1cL-O32_bNgRYzr9zZLmnL7UWnD0ILKZJTIWOTU)/cloud/3/x893du6/d/live-240.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(dqqx1YwQFtG3AZ3QTVfLc8yvqEGWuAWlGrEyP9V28lpkCY106h5aJm3OXcwzmUa4MJHQS49B-7jJtbBGu3BiMMFFwwjOQuAIxwb4eESrJedywhzkHErxMAMa7zqRvVfW)/cloud/3/x893du6/d/live-240.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
