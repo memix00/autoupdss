@@ -208,10 +208,10 @@ https://ilglobotv-live.akamaized.net/channels/MediasetItalia/Live.m3u8
 https://d27wu3gni4gipu.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/caf94a3c-5852-48c4-9699-3d5a5f513353/2.m3u8
 
 #EXTINF:-1 tvg-name="Videolina" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Videolina_logo.svg/512px-Videolina_logo.svg.png" group-title="Sardegna",Videolina
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(qyCfd1gVEAqfA7gw-16IsaPyBzc9I4VMZ0Y9Vz408xCEjA4fpVF1rCFlq6bVMib2L18ltIfnaPUqSvL9RP5ZenX28555g1q9jTAWGIQnDrz0xttul4cyK5ogo7I7-aC5)/cloud/3/xa0aoxk/d/live-720.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(Inu-zM2oag-3JlMJi_bgbTpT9cBClsaD8lo1DD1wnXqScF7neQo7wVODvwZz8yiUVdklCdWdG6ZTX2pji-JKBkX40Le02hy7TiAldEeTDEo94yJ4hQJTIPbUm9etlHqA)/cloud/3/xa0aoxk/d/live-720.m3u8
 
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" group-title="Italia",Sardegna 1
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(J-cKXAFXFSlOI5FLy-YZ_SeM4Q8iOu8XTilT-NZQvjl5-yZRuPscDHv0AdZCW9aflr7Zi1n_AM0KmsXQOv1gjnQeVLhhSakJau9F4sifukM9CoB0mq6rkhEmcuo5jdEV)/cloud/3/x893du6/d/live-240.m3u8
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(2gfAAsttjHkOnTnrNj5smDIjSrAEu1PeptWulDXcphocE0A-4DIFTfhd61kbtP7AEJGk-iw2Ro6UDtSIzfH9a4BPKAVHhbsuH2FuPdjJBfqdfQ32fj_E1kf7HhKiHxsg)/cloud/3/x893du6/d/live-240.m3u8
 
 #EXTINF:-1 tvg-id="TELESARDEGNA" tvg-name="Tele Sardegna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Telesardegna_logo.png" group-title="Italia",Tele Sardegna
 https://streamcdnp12-f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/chunklist.m3u8
